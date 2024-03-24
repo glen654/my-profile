@@ -1,0 +1,15 @@
+header{
+    background-color: lightblue;
+    position: relative;
+}
+
+header>img{
+    margin: 5px 5px 5px 20px;
+}
+
+header>nav{
+    position: absolute;
+    right: 0;
+    top: 35px;
+    margin-right: 10px;
+}
