@@ -1,21 +1,11 @@
 header{
-    background-color: #878e99;
+    width: 100vw;
+    height: 10vh;
+    background-color: #212428;
     position: relative;
 }
 
 header>img{
-    margin: 5px 5px 5px 40px;
-}
-
-header>nav{
     position: absolute;
-    right: 0;
-    top: 35px;
-    margin-right: 40px;
 }
 
-header>nav>a{
-    text-decoration: none;
-    margin-right: 25px;
-    color: white;
-}
