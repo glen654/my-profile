@@ -27,8 +27,13 @@ header>nav>ul{
 
 header>nav>ul>li{
     display: inline-block;
-    text-decoration: none;
     margin-right: 80px;
     font-size: larger;
+    margin-top: 20px;
 }
+
+header>nav>ul>li>a{
+    text-decoration: none;
+}
+
 
