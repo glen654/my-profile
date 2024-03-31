@@ -128,7 +128,7 @@ header>nav>ul>li>button:hover{
     height: 70px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color: #0d1013;
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%);
     cursor: pointer;
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
