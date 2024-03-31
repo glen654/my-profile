@@ -1,3 +1,9 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
 header{
     width: 100vw;
     height: 10vh;
@@ -7,5 +13,22 @@ header{
 
 header>img{
     position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 80px;
+    margin: auto;
+}
+
+header>nav>ul{
+    position: absolute;
+    right: 0;
+    list-style: none;
+}
+
+header>nav>ul>li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 80px;
+    font-size: larger;
 }
 
