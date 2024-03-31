@@ -79,7 +79,7 @@ header>nav>ul>li>button:hover{
     height: 600px;
     width: 550px;
     top: 130px;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -87,6 +87,18 @@ header>nav>ul>li>button:hover{
     position: relative;
     bottom: 200px;
     height: 800px;
+}
+
+#hero-left>div>h1>p{
+    display: inline-block;
+    color: #f9004d;
+}
+
+#hero-left>div>h1>img{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 14px;
 }
 
 #para{
