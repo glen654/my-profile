@@ -109,7 +109,7 @@ header>nav>ul>li>button:hover{
 
 #hero-left>div>h1{
     color: #f4f5f6;
-    font-size: 50px
+    font-size: 50px;
 }
 
 #hero-links{
@@ -143,4 +143,67 @@ header>nav>ul>li>button:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transform: translateY(-0.25em);
 }
+
+#animated-text{
+    font-size: 50px;
+    color: #f4f5f6;
+    margin-bottom: 10px;
+}
+
+#animated-text span{
+    position: relative;
+}
+
+#animated-text span::before{
+    content: "Full Stack Developer";
+    color: #f4f5f6;
+    font-weight: bold;
+    animation: words 20s infinite;
+}
+
+#animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #212428;
+    border-left: 2px solid #f4f5f6;
+    right: -8px;
+    animation: cursor 5s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Full Stack Developer";
+    }
+    21%,40%{
+        content: "Java Developer";
+    }
+    41%,60%{
+        content: "Professional Coder";
+    }
+    61%,80%{
+        content: "UI/UX Designer";
+    }
+    81%,100%{
+        content: "Traveler";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
+
 
