@@ -6,7 +6,7 @@ body{
 }
 header{
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     background-color: #212428;
     position: relative;
 }
@@ -69,8 +69,8 @@ header>nav>ul>li>button:hover{
 
 #hero-left{
     position: absolute;
-    left: 240px;
-    top: 150px;
+    left: 220px;
+    top: 50px;
 }
 
 #hero-right{
@@ -78,7 +78,7 @@ header>nav>ul>li>button:hover{
     right: 260px;
     height: 600px;
     width: 550px;
-    top: 130px;
+    top: 140px;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
