@@ -92,6 +92,7 @@ header>nav>ul>li>button:hover{
 #hero-left>div>h1>p{
     display: inline-block;
     color: #f9004d;
+    margin: 0;
 }
 
 #hero-left>div>h1>img{
@@ -109,4 +110,13 @@ header>nav>ul>li>button:hover{
 #hero-left>div>h1{
     color: #f4f5f6;
     font-size: 50px
+}
+
+#hero-links{
+    position: absolute;
+    top: 350px;
+}
+
+#hero-links>h4{
+    color: #f4f5f6;
 }
