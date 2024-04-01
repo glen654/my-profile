@@ -138,11 +138,10 @@ header>nav>ul>li>button:hover{
         background-color: #212428;
         position: relative;
     }
-
     header>img{
         position: absolute;
         top: 10px;
-        left: 60px;
+        left: 30px;
         width: 80px;
         margin: auto;
     }
@@ -155,8 +154,8 @@ header>nav>ul>li>button:hover{
 
     header>nav>ul>li{
         display: inline-block;
-        margin-right: 60px;
-        font-size: larger;
+        margin-right: 40px;
+        font-size: medium;
         margin-top: 20px;
         margin-bottom: 10px;
     }
@@ -204,12 +203,12 @@ header>nav>ul>li>button:hover{
     header>img{
         position: absolute;
         top: 10px;
-        left: 60px;
+        left: 40px;
         width: 80px;
         margin: auto;
     }
 
-    header>nav>ul>li{
+    header>nav>ul>li:not(:last-child){
         display: none;
     }
 
