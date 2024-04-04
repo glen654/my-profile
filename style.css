@@ -220,6 +220,90 @@ header>nav>ul>li>button:hover{
     }
 }
 
+@media all and (min-width: 376px) and (max-width: 425px) {
+    header{
+        width: 100vw;
+        height: 15vh;
+        background-color: #212428;
+        position: relative;
+    }
+
+    header>img{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        width: 60px;
+        margin: auto;
+    }
+
+    header>nav>ul>li:not(:last-child){
+        display: none;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 50px;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 375px) {
+    header{
+        width: 100vw;
+        height: 15vh;
+        background-color: #212428;
+        position: relative;
+    }
+
+    header>img{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 50px;
+        margin: auto;
+    }
+
+    header>nav>ul>li:not(:last-child){
+        display: none;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 60px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    header{
+        width: 100vw;
+        height: 15vh;
+        background-color: #212428;
+        position: relative;
+    }
+
+    header>img{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 30px;
+        margin: auto;
+    }
+
+    header>nav>ul>li:not(:last-child){
+        display: none;
+    }
+
+    .icon{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 60px;
+    }
+}
+
 /*Home Section*/
 #home{
     width: 100vw;
