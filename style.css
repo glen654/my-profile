@@ -67,6 +67,7 @@ header>nav>ul>li>button:hover{
     display: none;
 }
 
+/*Laptop large*/
 @media all and (min-width: 1024px) and (max-width: 1440px) {
     header>img {
         left: 80px;
@@ -100,6 +101,7 @@ header>nav>ul>li>button:hover{
     }
 }
 
+/*Laptop Small*/
 @media all and (max-width: 1024px) {
     header>img {
         left: 30px;
@@ -133,6 +135,7 @@ header>nav>ul>li>button:hover{
     }
 }
 
+/*Tab*/
 @media all and (max-width: 768px) {
     header>img {
         left: 40px;
@@ -149,6 +152,7 @@ header>nav>ul>li>button:hover{
     }
 }
 
+/*Mobile large*/
 @media all and (max-width: 425px) {
     header>img {
         left: 20px;
@@ -156,6 +160,7 @@ header>nav>ul>li>button:hover{
     }
 }
 
+/*Mobile medium*/
 @media all and (max-width: 375px) {
     header>img {
         left: 10px;
@@ -166,6 +171,7 @@ header>nav>ul>li>button:hover{
     }
 }
 
+/*Mobile small*/
 @media all and (max-width: 320px) {
     header>img {
         left: 10px;
