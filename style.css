@@ -370,11 +370,42 @@ hr {
 }
 
 #about-hero-left{
-    width: 400px;
+    width: 800px;
+    height: 800px;
     position: absolute;
     top: 80px;
     left: 100px;
 }
+
+#profile-picture{
+    width: 450px;
+    height: 240px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 120px;
+}
+
+#profile-picture>img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 300px;
+    margin: auto;
+    height: 480px;
+}
+
+#about-hero-left>p{
+    position: absolute;
+    top: 380px;
+    line-height: 1.8;
+    width: 700px;
+    font-size: 18px;
+    color: #f4f5f6;
+}
+
+
 
 
 
