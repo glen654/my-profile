@@ -369,3 +369,12 @@ hr {
     color: #f4f5f6;
 }
 
+#about-hero-left{
+    width: 400px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+}
+
+
+
