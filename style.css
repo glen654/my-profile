@@ -334,5 +334,10 @@ header>nav>ul>li>button:hover{
 
 /*About Section*/
 
-
+#about{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-color: #212428;
+}
 
