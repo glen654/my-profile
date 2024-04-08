@@ -425,6 +425,15 @@ hr {
     transform: translateY(-0.25em);
 }
 
+.skills{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
 
 
 
