@@ -520,6 +520,15 @@ hr {
     color: #f4f5f6;
 }
 
+.service-box p{
+    position: absolute;
+    top: 220px;
+    font-size: 16px;
+    left: 10px;
+    line-height: 1.5;
+    color: #f4f5f6;
+}
+
 
 
 
