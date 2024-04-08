@@ -436,6 +436,10 @@ hr {
     justify-content: center;
 }
 
+.skills-row:not(:last-child){
+    margin-right: 25px;
+}
+
 
 
 
