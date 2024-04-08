@@ -430,6 +430,11 @@ hr {
     justify-content: center;
 }
 
+.skills-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 
 
