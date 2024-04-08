@@ -513,6 +513,13 @@ hr {
     height: 100px;
 }
 
+.service-box h3{
+    position: absolute;
+    top: 140px;
+    left: 15px;
+    color: #f4f5f6;
+}
+
 
 
 
