@@ -465,6 +465,12 @@ hr {
     margin-bottom: 3rem
 }
 
+.skills-item img {
+    height: 60px;
+    width: auto;
+    transition: all 0.5s
+}
+
 
 
 
