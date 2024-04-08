@@ -231,6 +231,7 @@ header>nav>ul>li>button:hover{
 #para{
     width: 500px;
     color: #f4f5f6;
+    line-height: 2;
 }
 
 #hero-left>div>h1{
