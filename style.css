@@ -497,7 +497,7 @@ hr {
 .service-box{
     width: 550px;
     height: 450px;
-    background-color: #212428;
+    background: linear-gradient(to right bottom, #212428, #16181c);
     position: relative;
     top: 180px;
     right: 40px;
