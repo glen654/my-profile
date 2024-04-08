@@ -471,6 +471,15 @@ hr {
     transition: all 0.5s
 }
 
+.skills-item-name {
+    font-size: 1.0rem;
+    font-weight: 600;
+    line-height: 1;
+    transition: all 0.2s;
+    letter-spacing: 1px;
+    color: #f4f5f6;
+}
+
 
 
 
