@@ -461,6 +461,10 @@ hr {
     overflow: hidden;
 }
 
+.skills-item:not(:last-child) {
+    margin-bottom: 3rem
+}
+
 
 
 
