@@ -483,6 +483,23 @@ hr {
     color: #f4f5f6;
 }
 
+/*Service Section*/
+
+#services{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-color: #212428;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box{
+    width: 500px;
+    height: 500px;
+    background-color: #c4cfde;
+}
+
 
 
 
