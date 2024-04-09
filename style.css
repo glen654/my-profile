@@ -760,6 +760,19 @@ hr {
     font-weight: bold;
 }
 
+.view-more{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    color: #f4f5f6;
+}
+
+.view-more img{
+    display: none;
+}
+
+
+
 
 
 
