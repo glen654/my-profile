@@ -542,15 +542,33 @@ hr {
 
 #projects{
     width: 100vw;
-    height: 90vh;
-    /*position: relative;*/
+    height: 150vh;
+    position: relative;
     background-color: #212428;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
 }
 
+.project-box1{
+    width: 450px;
+    height: 450px;
+    background-color: #0d1013;
+    position: relative;
+    top: 180px;
+    left: 50px;
+    border-radius: 10px;
+}
 
+.project-box2{
+    width: 450px;
+    height: 450px;
+    background-color: #0d1013;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    border-radius: 10px;
+}
 
 
 
