@@ -864,6 +864,8 @@ hr {
     border-color: #f9004d;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     outline: 0 none;
+    color: #f4f5f6;
+    padding: 8px;
 }
 
 .input-cus::-webkit-input-placeholder{
