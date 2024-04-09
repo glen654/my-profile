@@ -705,7 +705,16 @@ hr {
     transform: translateY(-0.25em);
 }
 
+.assignment-box2:hover h3,
+.assignment-box2:hover p{
+    color: #f9004d;
+    transform: translateY(-0.25em);
+}
 
+.assignment-box2:hover{
+    background: linear-gradient(to left top, #212428, #16181c);
+    transform: translateY(-0.25em);
+}
 
 
 
