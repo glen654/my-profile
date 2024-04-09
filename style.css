@@ -945,6 +945,15 @@ footer{
     background-color: #f9004d;
 }
 
+#icon-div{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
 
 
 
