@@ -553,7 +553,8 @@ hr {
 .project-box1{
     width: 450px;
     height: 450px;
-    background-color: #0d1013;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
     top: 180px;
     left: 50px;
@@ -563,7 +564,8 @@ hr {
 .project-box2{
     width: 450px;
     height: 450px;
-    background-color: #0d1013;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
     top: 10px;
     left: 50px;
@@ -586,6 +588,14 @@ hr {
     top: 250px;
     left: 30px;
     color: #f4f5f6;
+}
+
+.project-para{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: #f4f5f6;
+    line-height: 1.5;
 }
 
 
