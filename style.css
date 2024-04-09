@@ -694,6 +694,19 @@ hr {
     line-height: 1.5;
 }
 
+.assignment-box1:hover h3,
+.assignment-box1:hover p{
+    color: #f9004d;
+    transform: translateY(-0.25em);
+}
+
+.assignment-box1:hover{
+    background: linear-gradient(to left top, #212428, #16181c);
+    transform: translateY(-0.25em);
+}
+
+
+
 
 
 
