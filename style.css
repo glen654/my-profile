@@ -874,15 +874,15 @@ hr {
 
 .submit-button {
     appearance: none;
-    background-color: #FFFFFF;
+    background-color: #0d1013;
     border-width: 0;
     box-sizing: border-box;
-    color: #000000;
+    color: #f4f5f6;
     cursor: pointer;
     display: inline-block;
     font-family: Clarkson,Helvetica,sans-serif;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0;
     line-height: 1em;
     margin: 0;
