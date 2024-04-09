@@ -860,6 +860,18 @@ hr {
     border: #212428;
 }
 
+.input-cus:focus{
+    border-color: #f9004d;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    outline: 0 none;
+}
+
+.input-cus::-webkit-input-placeholder{
+    font-size: 15px;
+    color: #f4f5f6;
+    padding: 8px;
+}
+
 
 
 
