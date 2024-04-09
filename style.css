@@ -718,7 +718,14 @@ hr {
 
 /*Blog section*/
 
-
+#blog{
+    width: 100vw;
+    height: 135vh;
+    position: relative;
+    background-color: #212428;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
