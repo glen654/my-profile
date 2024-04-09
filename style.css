@@ -833,6 +833,7 @@ hr {
     height: 35px;
     border-radius: 5px;
     background-color: #212428;
+    border: #212428;
 }
 
 #subject{
@@ -840,6 +841,7 @@ hr {
     height: 35px;
     border-radius: 5px;
     background-color: #212428;
+    border: #212428;
 }
 
 #email{
@@ -847,6 +849,7 @@ hr {
     height: 35px;
     border-radius: 5px;
     background-color: #212428;
+    border: #212428;
 }
 
 #message{
@@ -854,6 +857,7 @@ hr {
     height: 230px;
     border-radius: 5px;
     background-color: #212428;
+    border: #212428;
 }
 
 
