@@ -581,6 +581,13 @@ hr {
     border-radius: 5px;
 }
 
+.project-header{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    color: #f4f5f6;
+}
+
 
 
 
