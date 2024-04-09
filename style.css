@@ -768,8 +768,9 @@ hr {
 }
 
 .view-more img{
-    display: none;
     color: #f9004d;
+    position: absolute;
+    top: 10px;
 }
 
 .blog-box:hover .view-more,
@@ -777,6 +778,7 @@ hr {
     color: #f9004d;
     transform: translateY(-0.25em);
     display: inline-block;
+    text-indent: -20px;
 }
 
 .blog-box:hover{
