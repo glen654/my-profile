@@ -790,7 +790,7 @@ hr {
 
 #contact{
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
     position: relative;
     background-color: #212428;
 }
@@ -801,6 +801,20 @@ hr {
     color: #f4f5f6;
     left: 700px;
     font-size: larger;
+}
+
+#contact-div{
+    position: absolute;
+    top: 200px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 10px;
 }
 
 
