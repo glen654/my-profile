@@ -952,7 +952,6 @@ footer{
     right: 0;
     margin: auto;
     width: 900px;
-
 }
 
 #icon-div>a:first-child{
@@ -965,6 +964,15 @@ footer{
 
 #icon-div>a:last-child{
     margin-left: 280px;
+}
+
+#copyright{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 320px;
 }
 
 
