@@ -557,7 +557,7 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
     top: 180px;
-    left: 50px;
+    left: 70px;
     border-radius: 10px;
 }
 
@@ -568,7 +568,7 @@ hr {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
     top: 10px;
-    left: 50px;
+    left: 70px;
     border-radius: 10px;
 }
 
@@ -596,6 +596,12 @@ hr {
     left: 30px;
     color: #f4f5f6;
     line-height: 1.5;
+}
+
+.fa-github{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
 }
 
 
