@@ -776,11 +776,9 @@ hr {
 }
 
 .blog-box:hover .view-more,
-.blog-box:hover .view-more>img{
+.blog-box:hover .fa-arrow-right{
     color: #f9004d;
-    transform: translateY(-0.25em);
     display: inline-block;
-    text-indent: -20px;
 }
 
 .blog-box:hover{
