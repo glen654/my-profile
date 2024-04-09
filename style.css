@@ -936,7 +936,14 @@ hr {
     position: relative;
 }
 
+/*Footer*/
 
+footer{
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    background-color: #f9004d;
+}
 
 
 
