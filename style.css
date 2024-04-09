@@ -767,10 +767,12 @@ hr {
     color: #f4f5f6;
 }
 
-.view-more img{
+.fa-arrow-right{
+    display: none;
     color: #f9004d;
     position: absolute;
-    top: 10px;
+    top: 2px;
+    left: 90px;
 }
 
 .blog-box:hover .view-more,
