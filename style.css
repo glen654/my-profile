@@ -559,6 +559,8 @@ hr {
     top: 180px;
     left: 70px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .project-box2{
@@ -570,6 +572,28 @@ hr {
     top: 10px;
     left: 70px;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.project-box1:hover h3,
+.project-box1:hover p{
+    color: #f9004d;
+}
+
+.project-box1:hover{
+    background: linear-gradient(to left top, #212428, #16181c);
+    transform: translateY(-0.25em);
+}
+
+.project-box2:hover h3,
+.project-box2:hover p{
+    color: #f9004d;
+}
+
+.project-box2:hover{
+    background: linear-gradient(to left top, #212428, #16181c);
+    transform: translateY(-0.25em);
 }
 
 .project-image{
