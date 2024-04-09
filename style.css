@@ -632,7 +632,15 @@ hr {
 
 /*Assignment Section*/
 
-
+#assignments{
+    width: 100vw;
+    height: 135vh;
+    position: relative;
+    background-color: #212428;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
 
 
 
