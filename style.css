@@ -788,7 +788,12 @@ hr {
 
 /*Contact Section*/
 
-
+#contact{
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-color: #212428;
+}
 
 
 
