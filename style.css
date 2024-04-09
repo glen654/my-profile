@@ -795,6 +795,14 @@ hr {
     background-color: #212428;
 }
 
+#contact-para{
+    position: absolute;
+    top: 180px;
+    color: #f4f5f6;
+    left: 700px;
+    font-size: larger;
+}
+
 
 
 
