@@ -579,6 +579,7 @@ hr {
 .project-box1:hover h3,
 .project-box1:hover p{
     color: #f9004d;
+    transform: translateY(-0.25em);
 }
 
 .project-box1:hover{
@@ -589,6 +590,7 @@ hr {
 .project-box2:hover h3,
 .project-box2:hover p{
     color: #f9004d;
+    transform: translateY(-0.25em);
 }
 
 .project-box2:hover{
