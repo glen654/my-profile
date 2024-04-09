@@ -751,6 +751,15 @@ hr {
     border-radius: 5px;
 }
 
+.blog-para{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    color: #f4f5f6;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
 
 
 
