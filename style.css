@@ -763,14 +763,26 @@ hr {
 .view-more{
     position: absolute;
     bottom: 10px;
-    right: 20px;
+    right: 35px;
     color: #f4f5f6;
 }
 
 .view-more img{
     display: none;
+    color: #f9004d;
 }
 
+.blog-box:hover .view-more,
+.blog-box:hover .view-more>img{
+    color: #f9004d;
+    transform: translateY(-0.25em);
+    display: inline-block;
+}
+
+.blog-box:hover{
+    background: linear-gradient(to left top, #212428, #16181c);
+    transform: translateY(-0.25em);
+}
 
 
 
