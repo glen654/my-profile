@@ -240,7 +240,7 @@ header>nav>ul>li>button:hover{
     right: 280px;
     height: 640px;
     width: 600px;
-    top: 240px;
+    top: 250px;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -390,8 +390,6 @@ hr {
 
 }
 
-
-
 #about-hero-left{
     width: 800px;
     height: 800px;
@@ -483,6 +481,7 @@ hr {
     transition: transform 0.2s, opacity 1.2s;
     overflow: hidden;
 }
+
 
 .skills-item:not(:last-child) {
     margin-bottom: 3rem
