@@ -382,9 +382,10 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    color: #0d1013;
+    border: 2px solid #16181c;
     margin-top: 0;
     margin-bottom: 0;
+
 }
 
 
