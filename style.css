@@ -26,6 +26,21 @@ main{
     color: #f4f5f6;
 }
 
+/*Scroll-bar styles*/
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track{
+    background: #16181c;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #f9004d;
+    border-radius: 20px;
+    border: 3px solid #f9004d;
+}
+
 /*Navigation Bar*/
 header{
     width: 100vw;
