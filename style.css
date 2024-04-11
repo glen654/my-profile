@@ -470,7 +470,7 @@ hr {
     background: linear-gradient(to right bottom, #212428, #16181c);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
-    top: 10px;
+    top: 30px;
     left: 70px;
     border-radius: 10px;
     cursor: pointer;
@@ -563,7 +563,7 @@ hr {
     background: linear-gradient(to right bottom, #212428, #16181c);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     position: relative;
-    top: 10px;
+    top: 30px;
     left: 70px;
     border-radius: 10px;
     cursor: pointer;
