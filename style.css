@@ -1137,7 +1137,7 @@ footer{
 @media all and (max-width: 768px) {
     #projects{
         width: 100vw;
-        height: 145vh;
+        height: 175vh;
         position: relative;
         background-color: #212428;
         display: grid;
@@ -1157,7 +1157,7 @@ footer{
         height: 350px;
         position: relative;
         left: 30px;
-        top: 100px;
+        top: 180px;
     }
 
     .project-image{
