@@ -1011,15 +1011,188 @@ footer{
 /*Project Section*/
 
 @media all and (min-width: 1024px) and (max-width: 1440px) {
-    
+    #projects{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .project-box1{
+        width: 450px;
+        height: 450px;
+        position: relative;
+        left: 70px;
+        margin-right: 20px;
+    }
+
+    .project-box2{
+        width: 450px;
+        height: 450px;
+        position: relative;
+        left: 70px;
+        top: 10px;
+        margin-right: 20px;
+    }
+
+    .project-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        height: 220px;
+        border-radius: 5px;
+    }
+
+    .project-header{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        color: #f4f5f6;
+    }
+
+    .project-para{
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+    }
+
+    .git-hub{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
+
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-    
+    #projects{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+
+    .project-box1{
+        width: 430px;
+        height: 420px;
+        position: relative;
+        left: 50px;
+        margin-right: 20px;
+    }
+
+    .project-box2{
+        width: 430px;
+        height: 430px;
+        position: relative;
+        left: 50px;
+        top: 10px;
+        margin-right: 20px;
+    }
+
+    .project-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 360px;
+        height: 220px;
+        border-radius: 5px;
+    }
+
+    .project-header{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        color: #f4f5f6;
+    }
+
+    .project-para{
+        position: absolute;
+        top: 290px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+        font-size: medium;
+    }
+
+    .git-hub{
+        position: absolute;
+        bottom: 20px;
+        right: 40px;
+    }
 }
 
 @media all and (max-width: 768px) {
-    
+    #projects{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+
+    .project-box1{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 30px;
+
+    }
+
+    .project-box2{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 30px;
+    }
+
+    .project-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .project-header{
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        color: #f4f5f6;
+        font-size: small;
+    }
+
+    .project-para{
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+        font-size: small;
+    }
+
+    .git-hub{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
 }
 
 @media all and (max-width: 425px) {
