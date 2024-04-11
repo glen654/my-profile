@@ -443,7 +443,7 @@ hr {
 
 #projects{
     width: 100vw;
-    height: 135vh;
+    height: 130vh;
     position: relative;
     background-color: #212428;
     display: grid;
@@ -536,7 +536,7 @@ hr {
 
 #assignments{
     width: 100vw;
-    height: 135vh;
+    height: 130vh;
     position: relative;
     background-color: #212428;
     display: grid;
@@ -1137,7 +1137,7 @@ footer{
 @media all and (max-width: 768px) {
     #projects{
         width: 100vw;
-        height: 135vh;
+        height: 145vh;
         position: relative;
         background-color: #212428;
         display: grid;
@@ -1150,7 +1150,6 @@ footer{
         height: 350px;
         position: relative;
         left: 30px;
-
     }
 
     .project-box2{
@@ -1158,6 +1157,7 @@ footer{
         height: 350px;
         position: relative;
         left: 30px;
+        top: 100px;
     }
 
     .project-image{
