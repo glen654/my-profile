@@ -1988,7 +1988,7 @@ footer{
 @media all and (min-width: 768px) and (max-width: 820px){
     #blog{
         width: 100vw;
-        height: 80vh;
+        height: 60vh;
         position: relative;
         background-color: #212428;
         display: flex;
@@ -1996,11 +1996,10 @@ footer{
     }
 
     .blog-box{
-        width: 480px;
-        height: 380px;
+        width: 300px;
+        height: 350px;
         position: relative;
-        right: 20px;
-        margin-right: 20px;
+        right: 2px;
     }
 
     .blog-image{
@@ -2009,15 +2008,15 @@ footer{
         left: 0;
         right: 0;
         margin: auto;
-        width: 420px;
-        height: 220px;
+        width: 250px;
+        height: 180px;
         border-radius: 5px;
     }
 
     .blog-para{
         position: absolute;
-        top: 250px;
-        left: 30px;
+        top: 200px;
+        left: 20px;
         color: #f4f5f6;
         line-height: 1.5;
         font-weight: bold;
@@ -2032,7 +2031,7 @@ footer{
         display: none;
         color: #f9004d;
         position: absolute;
-        left: 80px;
+        left: 90px;
     }
 
     .blog-box:hover .view-more,
