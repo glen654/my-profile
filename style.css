@@ -446,9 +446,15 @@ hr {
     height: 130vh;
     position: relative;
     background-color: #212428;
+
+}
+
+#projects-grid{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+    height: calc(130vh - 230px);
 }
 
 .project-box1{
@@ -1016,9 +1022,14 @@ footer{
         height: 135vh;
         position: relative;
         background-color: #212428;
+    }
+
+    #projects-grid{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+        height: calc(130vh - 230px);
     }
 
     .project-box1{
@@ -1078,9 +1089,14 @@ footer{
         height: 135vh;
         position: relative;
         background-color: #212428;
+    }
+
+    #projects-grid{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+        height: calc(130vh - 230px);
     }
 
     .project-box1{
@@ -1137,19 +1153,24 @@ footer{
 @media all and (max-width: 768px) {
     #projects{
         width: 100vw;
-        height: 175vh;
+        height: 130vh;
         position: relative;
         background-color: #212428;
+    }
+
+    #projects-grid{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+        height: calc(130vh - 230px);
     }
 
     .project-box1{
         width: 350px;
         height: 350px;
         position: relative;
-        left: 30px;
+        left: 10px;
     }
 
     .project-box2{
