@@ -1435,6 +1435,112 @@ footer{
     }
 }
 
+/*Assignment Section Media Queries*/
+
+@media all and (min-width: 1024px) and (max-width: 1440px) {
+    #assignments{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #assignment-grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-gap: 10px;
+        height: calc(130vh - 230px);
+    }
+
+    .assignment-box{
+        width: 450px;
+        height: 450px;
+        position: relative;
+        left: 70px;
+        margin-right: 20px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 400px;
+        height: 220px;
+        border-radius: 5px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        color: #f4f5f6;
+    }
+
+    .assignment-para{
+        position: absolute;
+        top: 300px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #assignments{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #assignment-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+        height: calc(135vh - 230px);
+    }
+
+    .assignment-box{
+        width: 430px;
+        height: 420px;
+        position: relative;
+        left: 40px;
+        margin-right: 20px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 360px;
+        height: 220px;
+        border-radius: 5px;
+    }
+
+    .assignment-header{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        color: #f4f5f6;
+    }
+
+    .assignment-header{
+        position: absolute;
+        top: 290px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+        font-size: medium;
+    }
+
+}
 
 
 
