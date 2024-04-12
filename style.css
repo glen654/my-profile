@@ -1320,7 +1320,7 @@ footer{
 }
 
 
-@media all and (max-width: 375px) {
+@media all and (min-width: 320px) and (max-width: 375px) {
     #projects{
         width: 100vw;
         height: 355vh;
@@ -1531,7 +1531,7 @@ footer{
         color: #f4f5f6;
     }
 
-    .assignment-header{
+    .assignment-para{
         position: absolute;
         top: 290px;
         left: 30px;
@@ -1718,6 +1718,111 @@ footer{
         height: 350px;
         position: relative;
         left: 25px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .assignment-header{
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        color: #f4f5f6;
+        font-size: small;
+    }
+
+    .assignment-para{
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+        font-size: small;
+    }
+
+}
+
+@media all and (min-width: 320px) and (max-width: 375px) {
+    #assignments{
+        width: 100vw;
+        height: 355vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #assignment-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        height: calc(355vh - 230px);
+    }
+
+    .assignment-box{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 10px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .assignment-header{
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        color: #f4f5f6;
+        font-size: small;
+    }
+
+    .assignment-para{
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        color: #f4f5f6;
+        line-height: 1.5;
+        font-size: small;
+    }
+
+}
+
+@media all and (max-width: 320px) {
+    #assignments{
+        width: 100vw;
+        height: 355vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #assignment-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-gap: 10px;
+        height: calc(355vh - 230px);
+    }
+
+    .assignment-box{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 10px;
     }
 
     .assignment-image{
