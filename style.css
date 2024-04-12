@@ -2111,7 +2111,66 @@ footer{
 }
 
 @media all and (min-width: 425px) and (max-width: 430px){
+    #blog{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        background-color: #212428;
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-around;*/
+    }
 
+    .blog-box{
+        width: 230px;
+        height: 330px;
+        position: relative;
+        right: 5px;
+    }
+
+    .blog-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 200px;
+        height: 150px;
+        border-radius: 5px;
+    }
+
+    .blog-para{
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        color: #f4f5f6;
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    .view-more{
+        position: absolute;
+        right: 30px;
+    }
+
+    .fa-arrow-right{
+        display: none;
+        color: #f9004d;
+        position: absolute;
+        left: 90px;
+    }
+
+    .blog-box:hover .view-more,
+    .blog-box:hover .fa-arrow-right{
+        color: #f9004d;
+        display: inline-block;
+    }
+
+    .blog-box:hover{
+        background: linear-gradient(to left top, #212428, #16181c);
+        transform: translateY(-0.25em);
+    }
 
 }
 
