@@ -393,6 +393,10 @@ hr {
     height: 80vh;
     position: relative;
     background-color: #212428;
+}
+
+#service-flex{
+    width: calc(100vw - 20px);
     display: flex;
     justify-content: space-around;
 }
@@ -403,7 +407,6 @@ hr {
     background: linear-gradient(to right bottom, #212428, #16181c);
     position: relative;
     top: 180px;
-    right: 40px;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     cursor: pointer;
