@@ -1041,7 +1041,7 @@ footer{
 
 }
 
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 820px) and (max-width: 1024px) {
     #projects{
         width: 100vw;
         height: 135vh;
