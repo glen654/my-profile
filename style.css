@@ -2898,7 +2898,7 @@ footer{
         transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
         cursor: pointer;
         position: absolute;
-        bottom: -650px;
+        bottom: -740px;
         left: 190px;
     }
 
@@ -2926,8 +2926,8 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        height: 100px;
-        width: 160px;
+        height: 130px;
+        width: 200px;
 
     }
 
@@ -2937,7 +2937,7 @@ footer{
     }
 
     .skills-item img {
-        height: 60px;
+        height: 80px;
         width: auto;
         transition: all 0.5s
     }
@@ -3065,11 +3065,177 @@ footer{
 }
 
 @media all and (min-width: 430px) and (max-width: 768px){
+    #about{
+        width: 100vw;
+        height: 150vh;
+        position: relative;
+        background-color: #212428;
+    }
 
+
+    #about-hero-left{
+        position: absolute;
+        left: 130px;
+    }
+
+    #profile-picture{
+        width: 480px;
+        height: 240px;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: absolute;
+        top: 120px;
+    }
+
+    #profile-picture>img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 300px;
+        height: 480px;
+        width: 500px;
+    }
+
+    #about-hero-left>p{
+        position: absolute;
+        top: 360px;
+        line-height: 2.0;
+        width: 580px;
+        font-size: 14px;
+        color: #f4f5f6;
+    }
+
+    #about-hero-left>button{
+        left: 185px;
+    }
+
+    .skills{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skills-row:not(:last-child){
+        margin-right: 15px;
+    }
+
+    .skills-item{
+        left: 2px;
+    }
+
+
+    .skills-item:not(:last-child) {
+        margin-bottom: 3rem
+    }
+
+    .skills-item img {
+        height: 60px;
+        width: auto;
+        transition: all 0.5s
+    }
+
+    .skills-item-name {
+        font-size: 1.0rem;
+        font-weight: 500;
+        line-height: 1;
+        transition: all 0.2s;
+        letter-spacing: 1px;
+        color: #f4f5f6;
+    }
 }
 
 @media all and (min-width: 425px) and (max-width: 430px){
+    #about{
+        width: 100vw;
+        height: 150vh;
+        position: relative;
+        background-color: #212428;
+    }
 
+
+    #about-hero-left{
+        position: absolute;
+        left: 130px;
+    }
+
+    #profile-picture{
+        width: 480px;
+        height: 240px;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: absolute;
+        top: 120px;
+    }
+
+    #profile-picture>img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 300px;
+        height: 480px;
+        width: 500px;
+    }
+
+    #about-hero-left>p{
+        position: absolute;
+        top: 360px;
+        line-height: 2.0;
+        width: 580px;
+        font-size: 14px;
+        color: #f4f5f6;
+    }
+
+    #about-hero-left>button{
+        left: 185px;
+    }
+
+    .skills{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skills-row:not(:last-child){
+        margin-right: 15px;
+    }
+
+    .skills-item{
+        left: 2px;
+    }
+
+
+    .skills-item:not(:last-child) {
+        margin-bottom: 3rem
+    }
+
+    .skills-item img {
+        height: 60px;
+        width: auto;
+        transition: all 0.5s
+    }
+
+    .skills-item-name {
+        font-size: 1.0rem;
+        font-weight: 500;
+        line-height: 1;
+        transition: all 0.2s;
+        letter-spacing: 1px;
+        color: #f4f5f6;
+    }
 }
 
 @media all and (min-width: 375px) and (max-width: 425px){
