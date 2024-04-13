@@ -456,7 +456,6 @@ hr {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
-    /*grid-gap: 10px;*/
     height: calc(130vh - 230px);
 }
 
@@ -491,7 +490,7 @@ hr {
     left: 0;
     right: 0;
     margin: auto;
-    width: 400px;
+    width: 430px;
     height: 220px;
     border-radius: 5px;
 }
@@ -554,7 +553,7 @@ hr {
     left: 0;
     right: 0;
     margin: auto;
-    width: 400px;
+    width: 430px;
     height: 220px;
     border-radius: 5px;
 }
