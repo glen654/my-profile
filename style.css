@@ -2749,8 +2749,6 @@ footer{
     #profile-picture{
         width: 430px;
         height: 240px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 120px;
     }
@@ -2772,34 +2770,15 @@ footer{
         line-height: 2.0;
         width: 600px;
         font-size: 14px;
-        color: #f4f5f6;
     }
 
     #about-hero-left>button{
         width: 150px;
         height: 50px;
-        border-radius: 10px;
-        color: #f4f5f6;
-        background-color: #f9004d;
-        border: 1px solid  #f9004d;
-        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-        text-shadow: none;
-        transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-        cursor: pointer;
         position: absolute;
         bottom: 150px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -2810,10 +2789,6 @@ footer{
         position: relative;
         left: 360px;
         top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
         height: 100px;
         width: 160px;
 
@@ -2826,17 +2801,11 @@ footer{
 
     .skills-item img {
         height: 60px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 1.0rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
+
     }
 }
 
@@ -2860,8 +2829,6 @@ footer{
     #profile-picture{
         width: 480px;
         height: 240px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 120px;
     }
@@ -2879,38 +2846,19 @@ footer{
 
     #about-hero-left>p{
         position: absolute;
-        top: 360px;
+        top: 372px;
         line-height: 2.0;
-        width: 600px;
-        font-size: 18px;
-        color: #f4f5f6;
+        width: 665px;
+        font-size: 20px;
+        left: -66px;
     }
 
     #about-hero-left>button{
         width: 150px;
         height: 50px;
-        border-radius: 10px;
-        color: #f4f5f6;
-        background-color: #f9004d;
-        border: 1px solid  #f9004d;
-        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-        text-shadow: none;
-        transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-        cursor: pointer;
         position: absolute;
-        bottom: -740px;
+        top: 1460px;
         left: 190px;
-    }
-
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     .skills-row:not(:last-child){
@@ -2921,11 +2869,7 @@ footer{
         opacity: 1;
         position: relative;
         left: 5px;
-        top: 750px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
+        top: 790px;
         height: 130px;
         width: 200px;
 
@@ -2938,17 +2882,10 @@ footer{
 
     .skills-item img {
         height: 80px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 1.0rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
     }
 }
 
@@ -2972,8 +2909,6 @@ footer{
     #profile-picture{
         width: 480px;
         height: 240px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 120px;
     }
@@ -2995,35 +2930,14 @@ footer{
         line-height: 2.0;
         width: 580px;
         font-size: 14px;
-        color: #f4f5f6;
     }
 
     #about-hero-left>button{
-        width: 150px;
-        height: 50px;
-        border-radius: 10px;
-        color: #f4f5f6;
-        background-color: #f9004d;
-        border: 1px solid  #f9004d;
-        box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
-        text-shadow: none;
-        transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
-        cursor: pointer;
         position: absolute;
         bottom: -600px;
         left: 190px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -3034,10 +2948,6 @@ footer{
         position: relative;
         left: 5px;
         top: 690px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
         height: 100px;
         width: 160px;
 
@@ -3050,17 +2960,10 @@ footer{
 
     .skills-item img {
         height: 60px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 1.0rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
     }
 }
 
@@ -3081,8 +2984,6 @@ footer{
     #profile-picture{
         width: 480px;
         height: 240px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 120px;
     }
@@ -3104,23 +3005,12 @@ footer{
         line-height: 2.0;
         width: 580px;
         font-size: 14px;
-        color: #f4f5f6;
     }
 
     #about-hero-left>button{
         left: 185px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -3137,17 +3027,10 @@ footer{
 
     .skills-item img {
         height: 60px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 1.0rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
     }
 }
 
@@ -3168,8 +3051,6 @@ footer{
     #profile-picture{
         width: 355px;
         height: 215px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 140px;
         left: 25px;
@@ -3189,7 +3070,6 @@ footer{
         line-height: 2.0;
         width: 366px;
         font-size: 12px;
-        color: #f4f5f6;
         left: 22px;
     }
 
@@ -3197,16 +3077,6 @@ footer{
         left: 185px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -3226,17 +3096,12 @@ footer{
 
     .skills-item img {
         height: 45px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 0.8rem;
         font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
+
     }
 
     #about-hero-left>button{
@@ -3262,8 +3127,6 @@ footer{
     #profile-picture{
         width: 315px;
         height: 195px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 160px;
         left: 25px;
@@ -3283,7 +3146,6 @@ footer{
         line-height: 2.0;
         width: 318px;
         font-size: 12px;
-        color: #f4f5f6;
         left: 25px;
     }
 
@@ -3292,16 +3154,6 @@ footer{
         left: 107px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -3321,17 +3173,10 @@ footer{
 
     .skills-item img {
         height: 45px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 0.8rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
     }
 
 }
@@ -3353,8 +3198,6 @@ footer{
     #profile-picture{
         width: 305px;
         height: 195px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 160px;
         left: 25px;
@@ -3374,7 +3217,6 @@ footer{
         line-height: 2.0;
         width: 318px;
         font-size: 12px;
-        color: #f4f5f6;
         left: 22px;
     }
 
@@ -3383,16 +3225,6 @@ footer{
         left: 107px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -3405,24 +3237,12 @@ footer{
         top: 650px;
     }
 
-
-    .skills-item:not(:last-child) {
-        margin-bottom: 3rem
-    }
-
     .skills-item img {
         height: 30px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 0.6rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
     }
 }
 
@@ -3443,8 +3263,6 @@ footer{
     #profile-picture{
         width: 305px;
         height: 195px;
-        border-radius: 5px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
         top: 160px;
         left: 25px;
@@ -3464,7 +3282,6 @@ footer{
         line-height: 2.0;
         width: 318px;
         font-size: 12px;
-        color: #f4f5f6;
         left: 22px;
     }
 
@@ -3473,16 +3290,6 @@ footer{
         left: 107px;
     }
 
-    .skills{
-        display: flex;
-        justify-content: center;
-    }
-
-    .skills-row{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
     .skills-row:not(:last-child){
         margin-right: 15px;
@@ -3495,23 +3302,14 @@ footer{
         top: 650px;
     }
 
-
-    .skills-item:not(:last-child) {
-        margin-bottom: 3rem
-    }
-
     .skills-item img {
         height: 30px;
-        width: auto;
-        transition: all 0.5s
     }
 
     .skills-item-name {
         font-size: 0.6rem;
-        font-weight: 500;
-        line-height: 1;
-        transition: all 0.2s;
-        letter-spacing: 1px;
-        color: #f4f5f6;
     }
 }
+
+/*Home section media queries*/
+
