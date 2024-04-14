@@ -3162,36 +3162,35 @@ footer{
 
     #about-hero-left{
         position: absolute;
-        left: 130px;
+        left: 18px;
     }
 
     #profile-picture{
-        width: 480px;
-        height: 240px;
+        width: 355px;
+        height: 215px;
         border-radius: 5px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         position: absolute;
-        top: 120px;
+        top: 140px;
+        left: 25px;
     }
 
     #profile-picture>img{
         position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin: auto;
+        left: -38px;
         bottom: 300px;
-        height: 480px;
-        width: 500px;
+        height: 432px;
+        width: 460px;
     }
 
     #about-hero-left>p{
         position: absolute;
         top: 360px;
         line-height: 2.0;
-        width: 580px;
-        font-size: 14px;
+        width: 366px;
+        font-size: 12px;
         color: #f4f5f6;
+        left: 22px;
     }
 
     #about-hero-left>button{
@@ -3214,7 +3213,10 @@ footer{
     }
 
     .skills-item{
+        width: 100px;
+        height: 80px;
         left: 2px;
+        top: 630px;
     }
 
 
@@ -3223,18 +3225,23 @@ footer{
     }
 
     .skills-item img {
-        height: 60px;
+        height: 45px;
         width: auto;
         transition: all 0.5s
     }
 
     .skills-item-name {
-        font-size: 1.0rem;
+        font-size: 0.8rem;
         font-weight: 500;
         line-height: 1;
         transition: all 0.2s;
         letter-spacing: 1px;
         color: #f4f5f6;
+    }
+
+    #about-hero-left>button{
+        top: 1149px;
+        left: 125px;
     }
 }
 
