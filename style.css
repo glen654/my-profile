@@ -3559,7 +3559,74 @@ footer{
 }
 
 @media all and (min-width: 425px) and (max-width: 430px){
+    #home{
+        width: 100vw;
+        height: 140vh;
+        position: relative;
+        background-color: #212428;
+    }
 
+    #hero-left{
+        position: absolute;
+        left: 46px;
+        top: 848px;
+    }
+
+    #hero-right{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 496px;
+        width: 378px;
+        top: 307px;
+    }
+
+    #hero-right>img{
+        position: relative;
+        bottom: 200px;
+        height: 694px;
+        width: 419px;
+    }
+
+    #hero-left>div>h1>p{
+        display: inline-block;
+        margin: 0;
+    }
+
+    #hero-left>div>h1>img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 6px;
+    }
+
+    #para{
+        width: 364px;
+        line-height: 2;
+    }
+
+    #hero-left>div>h1{
+        font-size: 30px;
+    }
+
+    #hero-links{
+        position: absolute;
+        top: 263px;
+    }
+
+    #hero-links>h4{
+        color: #f4f5f6;
+    }
+
+    #animated-text{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .social-links {
+        margin-right: 30px;
+    }
 }
 
 @media all and (min-width: 375px) and (max-width: 425px){
