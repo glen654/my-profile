@@ -3246,6 +3246,93 @@ footer{
 }
 
 @media all and (min-width: 375px) and (max-width: 425px){
+    #about{
+        width: 100vw;
+        height: 160vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+
+    #about-hero-left{
+        position: absolute;
+        left: 18px;
+    }
+
+    #profile-picture{
+        width: 315px;
+        height: 195px;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: absolute;
+        top: 160px;
+        left: 25px;
+    }
+
+    #profile-picture>img{
+        position: absolute;
+        left: -59px;
+        bottom: 300px;
+        height: 392px;
+        width: 460px;
+    }
+
+    #about-hero-left>p{
+        position: absolute;
+        top: 360px;
+        line-height: 2.0;
+        width: 318px;
+        font-size: 12px;
+        color: #f4f5f6;
+        left: 25px;
+    }
+
+    #about-hero-left>button{
+        top: 1149px;
+        left: 107px;
+    }
+
+    .skills{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skills-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .skills-row:not(:last-child){
+        margin-right: 15px;
+    }
+
+    .skills-item{
+        width: 100px;
+        height: 80px;
+        left: 2px;
+        top: 630px;
+    }
+
+
+    .skills-item:not(:last-child) {
+        margin-bottom: 3rem
+    }
+
+    .skills-item img {
+        height: 45px;
+        width: auto;
+        transition: all 0.5s
+    }
+
+    .skills-item-name {
+        font-size: 0.8rem;
+        font-weight: 500;
+        line-height: 1;
+        transition: all 0.2s;
+        letter-spacing: 1px;
+        color: #f4f5f6;
+    }
 
 }
 
