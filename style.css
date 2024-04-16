@@ -4130,7 +4130,41 @@ footer{
 }
 
 @media all and (min-width: 320px) and (max-width: 375px){
+    footer{
+        height: 14vh;
+    }
 
+    #icon-div{
+        width: 900px;
+    }
+
+    #icon-div>a:first-child{
+        margin-left: 53px;
+    }
+
+    #icon-div>a:nth-child(2){
+        margin-left: 98px;
+    }
+
+    #icon-div>a:last-child{
+        margin-left: 98px;
+    }
+
+    #copyright{
+        width: 203px;
+    }
+
+    .footer-icons{
+        width: 25px
+    }
+
+    .fa-copyright{
+        width: 20px;
+    }
+
+    #line{
+        font-size: 12px;
+    }
 }
 
 @media all and (max-width: 320px){
