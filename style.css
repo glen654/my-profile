@@ -779,6 +779,7 @@ hr {
     touch-action: manipulation;
     vertical-align: baseline;
     white-space: nowrap;
+    width: 120px;
 }
 
 .submit-button:before {
