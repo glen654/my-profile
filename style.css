@@ -3890,10 +3890,11 @@ footer{
     }
 
     .submit-button {
-        font-size: 14px;
+        font-size: 12px;
         position: absolute;
         right: 20px;
-
+        width: 100px;
+        height: 50px;
     }
 
     .submit-button:before {
