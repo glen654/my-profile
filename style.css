@@ -3947,17 +3947,10 @@ footer{
 
 @media all and (min-width: 1024px) and (max-width: 1440px){
     footer{
-        width: 100vw;
         height: 6vh;
-        position: relative;
     }
 
     #icon-div{
-        position: absolute;
-        top: 15px;
-        left: 0;
-        right: 0;
-        margin: auto;
         width: 900px;
     }
 
@@ -3975,28 +3968,16 @@ footer{
 
 
     #copyright{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        margin: auto;
         width: 320px;
     }
 }
 
 @media all and (min-width: 820px) and (max-width: 1024px){
     footer{
-        width: 100vw;
         height: 7vh;
-        position: relative;
     }
 
     #icon-div{
-        position: absolute;
-        top: 15px;
-        left: 0;
-        right: 0;
-        margin: auto;
         width: 888px;
     }
 
@@ -4014,28 +3995,16 @@ footer{
 
 
     #copyright{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        margin: auto;
         width: 320px;
     }
 }
 
 @media all and (min-width: 768px) and (max-width: 820px){
     footer{
-        width: 100vw;
         height: 8vh;
-        position: relative;
     }
 
     #icon-div{
-        position: absolute;
-        top: 15px;
-        left: 0;
-        right: 0;
-        margin: auto;
         width: 900px;
     }
 
@@ -4053,17 +4022,35 @@ footer{
 
 
     #copyright{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        right: 0;
-        margin: auto;
         width: 279px;
     }
 }
 
 @media all and (min-width: 430px) and (max-width: 768px){
+    footer{
+        height: 9vh;
+    }
 
+    #icon-div{
+        width: 900px;
+    }
+
+    #icon-div>a:first-child{
+        margin-left: 197px;
+    }
+
+    #icon-div>a:nth-child(2){
+        margin-left: 155px;
+    }
+
+    #icon-div>a:last-child{
+        margin-left: 155px;
+    }
+
+
+    #copyright{
+        width: 269px;
+    }
 }
 
 @media all and (min-width: 425px) and (max-width: 430px){
