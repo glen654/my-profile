@@ -3812,14 +3812,14 @@ footer{
 @media all and (min-width: 820px) and (max-width: 1024px){
     #contact{
         width: 100vw;
-        height: 49vh;
+        height: 52vh;
         position: relative;
         background-color: #212428;
     }
 
     #contact-para{
         position: absolute;
-        top: 122px;
+        top: 136px;
         left: 306px;
         font-size: medium;
     }
@@ -3832,7 +3832,7 @@ footer{
         bottom: 0;
         margin: auto;
         width: 711px;
-        height: 427px;
+        height: 441px;
     }
 
     #contact-form{
@@ -4065,7 +4065,88 @@ footer{
 }
 
 @media all and (min-width: 425px) and (max-width: 430px){
+    #contact{
+        width: 100vw;
+        height: 49vh;
+        position: relative;
+        background-color: #212428;
+    }
 
+    #contact-para{
+        position: absolute;
+        top: 114px;
+        left: 215px;
+        font-size: smaller;
+    }
+
+    #contact-div{
+        position: absolute;
+        top: 152px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 576px;
+        height: 323px;
+    }
+
+    #contact-form{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 505px;
+        height: 294px;
+    }
+
+    #name{
+        width: 235px;
+        height: 30px;
+    }
+
+    #subject{
+        width: 235px;
+        height: 30px;
+    }
+
+    #email{
+        width: 490px;
+        height: 30px;
+    }
+
+    #message{
+        width: 490px;
+        height: 130px;
+    }
+
+    .input-cus:focus{
+        outline: 0 none;
+        padding: 8px;
+    }
+
+    .input-cus::-webkit-input-placeholder{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .submit-button {
+        font-size: 11px;
+        position: absolute;
+        right: 20px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .submit-button:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
 }
 
 @media all and (min-width: 375px) and (max-width: 425px){
