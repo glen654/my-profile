@@ -3897,7 +3897,7 @@ footer{
 @media all and (min-width: 768px) and (max-width: 820px){
     #contact{
         width: 100vw;
-        height: 49vh;
+        height: 53vh;
         position: relative;
         background-color: #212428;
     }
@@ -3982,14 +3982,14 @@ footer{
 @media all and (min-width: 430px) and (max-width: 768px){
     #contact{
         width: 100vw;
-        height: 49vh;
+        height: 57vh;
         position: relative;
         background-color: #212428;
     }
 
     #contact-para{
         position: absolute;
-        top: 114px;
+        top: 126px;
         left: 215px;
         font-size: smaller;
     }
@@ -4002,7 +4002,7 @@ footer{
         bottom: 0;
         margin: auto;
         width: 576px;
-        height: 323px;
+        height: 343px;
     }
 
     #contact-form{
