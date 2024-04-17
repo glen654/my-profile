@@ -4067,15 +4067,15 @@ footer{
 @media all and (min-width: 425px) and (max-width: 430px){
     #contact{
         width: 100vw;
-        height: 49vh;
+        height: 65vh;
         position: relative;
         background-color: #212428;
     }
 
     #contact-para{
         position: absolute;
-        top: 114px;
-        left: 215px;
+        top: 132px;
+        left: 46px;
         font-size: smaller;
     }
 
@@ -4097,28 +4097,28 @@ footer{
         bottom: 0;
         left: 0;
         margin: auto;
-        width: 505px;
+        width: 503px;
         height: 294px;
     }
 
     #name{
-        width: 235px;
+        width: 165px;
         height: 30px;
     }
 
     #subject{
-        width: 235px;
+        width: 165px;
         height: 30px;
     }
 
     #email{
-        width: 490px;
+        width: 352px;
         height: 30px;
     }
 
     #message{
-        width: 490px;
-        height: 130px;
+        width: 352px;
+        height: 120px;
     }
 
     .input-cus:focus{
@@ -4134,7 +4134,7 @@ footer{
     .submit-button {
         font-size: 11px;
         position: absolute;
-        right: 20px;
+        right: 146px;
         width: 90px;
         height: 40px;
     }
