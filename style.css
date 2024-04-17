@@ -5138,6 +5138,460 @@ footer{
 
 @media all and (min-width: 820px) and (max-width: 1024px){
 
+    /*Header*/
+    header>img {
+        left: 40px;
+    }
+
+    header>nav>ul>li:not(:last-child) {
+        display: none;
+    }
+    .icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 50px;
+    }
+
+    /*Home Section*/
+    #home{
+        width: 100vw;
+        height: 70vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #hero-left{
+        position: absolute;
+        left: 45px;
+        top: 240px;
+    }
+
+    #hero-right{
+        position: absolute;
+        right: 68px;
+        height: 590px;
+        width: 400px;
+        top: 271px;
+    }
+
+    #hero-right>img{
+        position: relative;
+        bottom: 200px;
+        height: 789px;
+        width: 450px;
+    }
+
+    #hero-left>div>h1>p{
+        display: inline-block;
+        margin: 0;
+    }
+
+    #hero-left>div>h1>img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 6px;
+    }
+
+    #para{
+        width: 500px;
+        line-height: 2;
+    }
+
+
+    #hero-links{
+        position: absolute;
+        top: 350px;
+    }
+
+    #hero-links>h4{
+        color: #f4f5f6;
+    }
+
+    #hero-left>div>h1{
+        font-size: 39px;
+    }
+
+    #animated-text{
+        font-size: 39px;
+        margin-bottom: 10px;
+    }
+
+    /*About section*/
+    #about{
+        width: 100vw;
+        height: 125vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+
+    #about-hero-left{
+        width: 730px;
+        height: 730px;
+        position: absolute;
+        left: 250px;
+        top: 150px;
+    }
+
+    #profile-picture{
+        width: 480px;
+        height: 240px;
+        position: absolute;
+        top: 120px;
+    }
+
+    #profile-picture>img{
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 300px;
+        height: 480px;
+        width: 540px;
+    }
+
+    #about-hero-left>p{
+        position: absolute;
+        top: 372px;
+        line-height: 2.0;
+        width: 665px;
+        font-size: 20px;
+        left: -66px;
+    }
+
+    #about-hero-left>button{
+        width: 150px;
+        height: 50px;
+        position: absolute;
+        top: 1460px;
+        left: 190px;
+    }
+
+    .skills-row:not(:last-child){
+        margin-right: 15px;
+    }
+
+    .skills-item{
+        opacity: 1;
+        position: relative;
+        left: 5px;
+        top: 790px;
+        height: 130px;
+        width: 200px;
+
+    }
+
+    .skills-item:not(:last-child) {
+        margin-bottom: 3rem
+    }
+
+    .skills-item img {
+        height: 80px;
+    }
+
+    .skills-item-name {
+        font-size: 1.0rem;
+    }
+
+    /*Service Section*/
+
+    #services{
+        width: 100vw;
+        height: 60vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #service-flex{
+        width: calc(100vw - 20px);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .service-box{
+        width: 400px;
+        height: 420px;
+        margin-right: 10px;
+        position: relative;
+        left: 10px;
+    }
+
+    .service-box p{
+        font-size: 12px;
+    }
+
+    /*Project section*/
+    #projects{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #projects-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+        height: calc(135vh - 230px);
+    }
+
+    .project-box{
+        width: 430px;
+        height: 420px;
+        position: relative;
+        left: 40px;
+        margin-right: 20px;
+    }
+
+    .project-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 402px;
+        height: 220px;
+        border-radius: 5px;
+    }
+
+    .project-header{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+    }
+
+    .project-para{
+        position: absolute;
+        top: 290px;
+        left: 30px;
+        line-height: 1.5;
+        font-size: medium;
+    }
+
+    .git-hub{
+        position: absolute;
+        bottom: 20px;
+        right: 40px;
+    }
+
+    /*Assignment Section*/
+
+    #assignments{
+        width: 100vw;
+        height: 135vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #assignment-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,1fr);
+        grid-gap: 10px;
+        height: calc(135vh - 230px);
+    }
+
+    .assignment-box{
+        width: 430px;
+        height: 420px;
+        position: relative;
+        left: 40px;
+        margin-right: 20px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 360px;
+        height: 220px;
+        border-radius: 5px;
+    }
+
+    .assignment-header{
+        position: absolute;
+        top: 250px;
+        left: 30px;
+    }
+
+    .assignment-para{
+        position: absolute;
+        top: 290px;
+        left: 30px;
+        line-height: 1.5;
+        font-size: medium;
+    }
+
+    /*Blog section*/
+
+    #blog{
+        width: 100vw;
+        height: 50vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #blog-flex{
+        width: calc(100vw - 30px);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .blog-box{
+        width: 320px;
+        height: 380px;
+        position: relative;
+        right: 10px;
+        margin-right: 10px;
+    }
+
+    .blog-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+    }
+
+    .blog-para{
+        position: absolute;
+        top: 230px;
+        left: 20px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .view-more{
+        position: absolute;
+        right: 30px;
+    }
+
+    .fa-arrow-right{
+        display: none;
+        position: absolute;
+        left: 90px;
+    }
+
+    /*Contact section*/
+
+    #contact{
+        width: 100vw;
+        height: 52vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #contact-para{
+        position: absolute;
+        top: 136px;
+        left: 306px;
+        font-size: medium;
+    }
+
+    #contact-div{
+        position: absolute;
+        top: 200px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 711px;
+        height: 441px;
+    }
+
+    #contact-form{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 640px;
+        height: 385px;
+    }
+
+    #name{
+        width: 300px;
+        height: 35px;
+    }
+
+    #subject{
+        width: 300px;
+        height: 35px;
+    }
+
+    #email{
+        width: 622px;
+        height: 35px;
+    }
+
+    #message{
+        width: 622px;
+        height: 198px;
+    }
+
+    .input-cus:focus{
+        outline: 0 none;
+        padding: 8px;
+    }
+
+    .input-cus::-webkit-input-placeholder{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .submit-button {
+        font-size: 12px;
+        position: absolute;
+        right: 20px;
+        width: 100px;
+        height: 50px;
+    }
+
+    .submit-button:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    /*Footer section*/
+    footer{
+        height: 7vh;
+    }
+
+    #icon-div{
+        width: 888px;
+    }
+
+    #icon-div>a:first-child{
+        margin-left: 120px;
+    }
+
+    #icon-div>a:nth-child(2){
+        margin-left: 240px;
+    }
+
+    #icon-div>a:last-child{
+        margin-left: 280px;
+    }
+
+
+    #copyright{
+        width: 320px;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 820px){
