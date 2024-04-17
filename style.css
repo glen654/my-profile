@@ -3807,19 +3807,6 @@ footer{
         width: 100%;
     }
 
-    .submit-button:hover:before {
-        animation: opacityFallbackIn 0s step-start forwards;
-        clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
-    }
-
-    .submit-button:after {
-        background-color: #FFFFFF;
-    }
-
-    .submit-button span {
-        z-index: 1;
-        position: relative;
-    }
 }
 
 @media all and (min-width: 820px) and (max-width: 1024px){
@@ -3832,9 +3819,9 @@ footer{
 
     #contact-para{
         position: absolute;
-        top: 180px;
-        left: 400px;
-        font-size: larger;
+        top: 122px;
+        left: 306px;
+        font-size: medium;
     }
 
     #contact-div{
@@ -3844,8 +3831,8 @@ footer{
         left: 0;
         bottom: 0;
         margin: auto;
-        width: 800px;
-        height: 500px;
+        width: 711px;
+        height: 427px;
     }
 
     #contact-form{
@@ -3855,28 +3842,28 @@ footer{
         bottom: 0;
         left: 0;
         margin: auto;
-        width: 700px;
-        height: 400px;
+        width: 640px;
+        height: 385px;
     }
 
     #name{
-        width: 320px;
+        width: 300px;
         height: 35px;
     }
 
     #subject{
-        width: 320px;
+        width: 300px;
         height: 35px;
     }
 
     #email{
-        width: 665px;
+        width: 622px;
         height: 35px;
     }
 
     #message{
-        width: 665px;
-        height: 230px;
+        width: 622px;
+        height: 198px;
     }
 
     .input-cus:focus{
@@ -3906,19 +3893,6 @@ footer{
         width: 100%;
     }
 
-    .submit-button:hover:before {
-        animation: opacityFallbackIn 0s step-start forwards;
-        clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
-    }
-
-    .submit-button:after {
-        background-color: #FFFFFF;
-    }
-
-    .submit-button span {
-        z-index: 1;
-        position: relative;
-    }
 }
 
 @media all and (min-width: 768px) and (max-width: 820px){
