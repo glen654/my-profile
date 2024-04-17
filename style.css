@@ -4235,7 +4235,88 @@ footer{
 }
 
 @media all and (min-width: 320px) and (max-width: 375px){
+    #contact{
+        width: 100vw;
+        height: 84vh;
+        position: relative;
+        background-color: #212428;
+    }
 
+    #contact-para{
+        position: absolute;
+        top: 132px;
+        left: 64px;
+        font-size: x-small;
+    }
+
+    #contact-div{
+        position: absolute;
+        top: 152px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 576px;
+        height: 323px;
+    }
+
+    #contact-form{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 542px;
+        height: 294px;
+    }
+
+    #name{
+        width: 157px;
+        height: 30px;
+    }
+
+    #subject{
+        width: 157px;
+        height: 30px;
+    }
+
+    #email{
+        width: 343px;
+        height: 30px;
+    }
+
+    #message{
+        width: 343px;
+        height: 120px;
+    }
+
+    .input-cus:focus{
+        outline: 0 none;
+        padding: 8px;
+    }
+
+    .input-cus::-webkit-input-placeholder{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .submit-button {
+        font-size: 11px;
+        position: absolute;
+        right: 193px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .submit-button:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
 }
 
 @media all and (max-width: 320px){
