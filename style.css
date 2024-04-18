@@ -7025,6 +7025,480 @@ footer{
 
 @media all and (min-width: 375px) and (max-width: 425px){
 
+    /*Header*/
+
+    header>img {
+        left: 10px;
+        width: 50px;
+    }
+    .icon {
+        right: 60px;
+    }
+
+    /*Home section*/
+
+    #home{
+        width: 100vw;
+        height: 155vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #hero-left{
+        position: absolute;
+        left: 35px;
+        top: 848px;
+    }
+
+    #hero-right{
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: auto;
+        height: 496px;
+        width: 367px;
+        top: 307px;
+    }
+
+    #hero-right>img{
+        position: relative;
+        bottom: 200px;
+        height: 694px;
+        width: 409px;
+    }
+
+    #hero-left>div>h1>p{
+        display: inline-block;
+        margin: 0;
+    }
+
+    #hero-left>div>h1>img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 6px;
+    }
+
+    #para{
+        width: 351px;
+        line-height: 2;
+    }
+
+    #hero-left>div>h1{
+        font-size: 28px;
+    }
+
+    #hero-links{
+        position: absolute;
+        top: 263px;
+    }
+
+    #hero-links>h4{
+        color: #f4f5f6;
+    }
+
+    #animated-text{
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .social-links {
+        margin-right: 30px;
+    }
+
+    /*About section*/
+
+    #about{
+        width: 100vw;
+        height: 160vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+
+    #about-hero-left{
+        position: absolute;
+        left: 18px;
+    }
+
+    #profile-picture{
+        width: 315px;
+        height: 195px;
+        position: absolute;
+        top: 160px;
+        left: 25px;
+    }
+
+    #profile-picture>img{
+        position: absolute;
+        left: -59px;
+        bottom: 300px;
+        height: 392px;
+        width: 460px;
+    }
+
+    #about-hero-left>p{
+        position: absolute;
+        top: 360px;
+        line-height: 2.0;
+        width: 318px;
+        font-size: 12px;
+        left: 25px;
+    }
+
+    #about-hero-left>button{
+        top: 1149px;
+        left: 107px;
+    }
+
+
+    .skills-row:not(:last-child){
+        margin-right: 15px;
+    }
+
+    .skills-item{
+        width: 100px;
+        height: 80px;
+        left: 2px;
+        top: 630px;
+    }
+
+
+    .skills-item:not(:last-child) {
+        margin-bottom: 3rem
+    }
+
+    .skills-item img {
+        height: 45px;
+    }
+
+    .skills-item-name {
+        font-size: 0.8rem;
+    }
+
+    /*Service section*/
+
+    #services{
+        width: 100vw;
+        height: 150vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #service-flex{
+        width: calc(100vw - 10px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-box{
+        width: 330px;
+        height: 320px;
+        margin-bottom: 20px;
+        position: relative;
+        left: 8px;
+    }
+
+    .service-box img{
+        position: absolute;
+        left: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    .service-box h3{
+        position: absolute;
+        top: 120px;
+        left: 15px;
+        color: #f4f5f6;
+        font-size: 14px;
+    }
+
+    .service-box p{
+        position: absolute;
+        top: 160px;
+        font-size: 12px;
+    }
+
+    /*Project section*/
+
+    #projects{
+        width: 100vw;
+        height: 280vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #projects-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: calc(280vh - 250px);
+    }
+
+    .project-box{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 25px;
+    }
+
+    .project-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .project-header{
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        font-size: small;
+    }
+
+    .project-para{
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        line-height: 1.5;
+        font-size: small;
+    }
+
+    .git-hub{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+    }
+
+    /*Assignment section*/
+
+    #assignments{
+        width: 100vw;
+        height: 280vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #assignment-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: calc(280vh - 250px);
+    }
+
+    .assignment-box{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        left: 25px;
+    }
+
+    .assignment-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 300px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .assignment-header{
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        font-size: small;
+    }
+
+    .assignment-para{
+        position: absolute;
+        top: 230px;
+        left: 30px;
+        line-height: 1.5;
+        font-size: small;
+    }
+
+    /*Blog section*/
+
+    #blog{
+        width: 100vw;
+        height: 160vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #blog-flex{
+        width: calc(100vw - 15px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-box{
+        width: 350px;
+        height: 330px;
+        position: relative;
+    }
+
+    .blog-image{
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 330px;
+        height: 160px;
+        border-radius: 5px;
+    }
+
+    .blog-para{
+        position: absolute;
+        top: 180px;
+        left: 20px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .view-more{
+        position: absolute;
+        right: 30px;
+    }
+
+    .fa-arrow-right{
+        display: none;
+        position: absolute;
+        left: 90px;
+    }
+
+    /*Contact section*/
+
+    #contact{
+        width: 100vw;
+        height: 65vh;
+        position: relative;
+        background-color: #212428;
+    }
+
+    #contact-para{
+        position: absolute;
+        top: 132px;
+        left: 64px;
+        font-size: x-small;
+    }
+
+    #contact-div{
+        position: absolute;
+        top: 152px;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 576px;
+        height: 323px;
+    }
+
+    #contact-form{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        width: 542px;
+        height: 294px;
+    }
+
+    #name{
+        width: 165px;
+        height: 30px;
+    }
+
+    #subject{
+        width: 165px;
+        height: 30px;
+    }
+
+    #email{
+        width: 352px;
+        height: 30px;
+    }
+
+    #message{
+        width: 352px;
+        height: 120px;
+    }
+
+    .input-cus:focus{
+        outline: 0 none;
+        padding: 8px;
+    }
+
+    .input-cus::-webkit-input-placeholder{
+        font-size: 15px;
+        padding: 8px;
+    }
+
+    .submit-button {
+        font-size: 11px;
+        position: absolute;
+        right: 186px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .submit-button:before {
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    /*Footer section*/
+
+    footer{
+        height: 11vh;
+    }
+
+    #icon-div{
+        width: 900px;
+    }
+
+    #icon-div>a:first-child{
+        margin-left: 47px;
+    }
+
+    #icon-div>a:nth-child(2){
+        margin-left: 109px;
+    }
+
+    #icon-div>a:last-child{
+        margin-left: 109px;
+    }
+
+    #copyright{
+        width: 203px;
+    }
+
+    .footer-icons{
+        width: 25px
+    }
+
+    .fa-copyright{
+        width: 20px;
+    }
+
+    #line{
+        font-size: 12px;
+    }
+
 }
 
 @media all and (min-width: 320px) and (max-width: 375px){
