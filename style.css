@@ -5689,7 +5689,7 @@ footer{
     }
 
     .social-links {
-        margin-right: 100px;
+        margin-right: 90px;
     }
 
     /*!*About section*!*/
@@ -5740,6 +5740,7 @@ footer{
         position: absolute;
         bottom: -600px;
         left: 190px;
+        top: 1258px;
     }
 
 
@@ -6154,7 +6155,7 @@ footer{
     }
 
     .social-links {
-        margin-right: 100px;
+        margin-right: 90px;
     }
 
     /*!*About section*!*/
