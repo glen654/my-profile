@@ -7029,11 +7029,19 @@ footer{
 /*    !*Header*!*/
 
     header>img {
-        left: 10px;
-        width: 50px;
+        width: 60px;
+        height: 60px;
+        left: 40px;
+    }
+
+    header>nav>ul>li:not(:last-child) {
+        display: none;
     }
     .icon {
-        right: 60px;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 40px;
     }
 
     /*!*Home section*!*/
