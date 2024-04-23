@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb{
 /*Navigation Bar*/
 header{
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     background-color: #212428;
     position: fixed;
     z-index: 1;
@@ -54,8 +54,9 @@ header{
 header>img{
     position: absolute;
     top: 10px;
-    left: 80px;
-    width: 80px;
+    left: 90px;
+    width: 230px;
+    height: 100px;
     margin: auto;
 }
 
@@ -5140,8 +5141,13 @@ footer{
 @media all and (min-width: 820px) and (max-width: 1024px){
 
    /* !*Header*!*/
+    header{
+        height: 10vh;
+    }
     header>img {
         left: 40px;
+        width: 180px;
+        height: 100px;
     }
 
     header>nav>ul>li:not(:last-child) {
@@ -6548,7 +6554,8 @@ footer{
 
     header>img {
         left: 20px;
-        width: 60px;
+        width: 130px;
+        height: 70px;
     }
 
    /* !*Home section*!*/
@@ -7030,9 +7037,9 @@ footer{
 /*    !*Header*!*/
 
     header>img {
-        width: 60px;
+        width: 100px;
         height: 60px;
-        left: 40px;
+        left: 30px;
     }
 
     header>nav>ul>li:not(:last-child) {
@@ -7516,9 +7523,9 @@ footer{
    /* !*Header*!*/
 
     header>img {
-        width: 50px;
+        width: 100px;
         height: 50px;
-        left: 40px;
+        left: 30px;
     }
 
     header>nav>ul>li:not(:last-child) {
@@ -7528,7 +7535,7 @@ footer{
         display: block;
         position: absolute;
         top: 0;
-        right: 50px;
+        right: 30px;
     }
     /*Home section*/
 
