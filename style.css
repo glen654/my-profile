@@ -511,6 +511,7 @@ hr {
     letter-spacing: 2px;
     color: #f4f5f6;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .project-header:hover{
