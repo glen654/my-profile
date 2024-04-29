@@ -2990,7 +2990,7 @@ footer{
 
     #projects{
         width: 100vw;
-        height: 280vh;
+        height: 293vh;
         position: relative;
         background-color: #212428;
     }
@@ -3001,44 +3001,40 @@ footer{
         height: calc(280vh - 250px);
     }
 
-    .project-box{
-        width: 350px;
-        height: 350px;
-        position: relative;
-        left: 30px;
-    }
 
-    .project-image{
-        position: absolute;
-        top: 20px;
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 329px;
-        height: 180px;
-        border-radius: 5px;
+    .project-box{
+        width: 355px;
+        height: 410px;
+        border-radius: 10px;
+        position: relative;
+        top: 180px;
+        left: 36px;
+        overflow: hidden;
     }
 
     .project-header{
-        position: absolute;
-        top: 200px;
-        left: 30px;
-        font-size: small;
+        margin-bottom: 5px;
+        margin-top: 66%;
+        margin-right: 20%;
+        font-size: 20px;
+    }
+
+    .project-header:hover{
+        font-size: 25px;
     }
 
     .project-para{
-        position: absolute;
-        top: 230px;
-        left: 30px;
-        line-height: 1.5;
-        font-size: small;
+        margin-right: 20%;
+        font-size: 15px;
+        letter-spacing: 2px;
     }
 
-    .git-hub{
-        position: absolute;
-        bottom: 20px;
-        right: 30px;
+    .project-git-hub{
+        position: relative;
+        top: 3px;
+        right: 43px;
     }
+
 
     /*!*Assignment section*!*/
 
@@ -3086,6 +3082,12 @@ footer{
         left: 30px;
         line-height: 1.5;
         font-size: small;
+    }
+
+    .git-hub{
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
     }
 
    /* !*Blog section*!*/
