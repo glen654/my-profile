@@ -916,7 +916,7 @@ footer{
 
     #home{
         width: 100vw;
-        height: 55vh;
+        height: 102vh;
         position: relative;
         background-color: #212428;
     }
@@ -982,7 +982,7 @@ footer{
 
     #about{
         width: 100vw;
-        height: 46vh;
+        height: 86vh;
         position: relative;
         background-color: #212428;
     }
@@ -1060,7 +1060,7 @@ footer{
 
     #services{
         width: 100vw;
-        height: 43vh;
+        height: 76vh;
         position: relative;
         background-color: #212428;
     }
@@ -1175,7 +1175,7 @@ footer{
 
     #assignments{
         width: 100vw;
-        height: 70vh;
+        height: 130vh;
         position: relative;
         background-color: #212428;
     }
@@ -1224,7 +1224,7 @@ footer{
 
     #blog{
         width: 100vw;
-        height: 40vh;
+        height: 71vh;
         position: relative;
         background-color: #212428;
     }
@@ -1281,7 +1281,7 @@ footer{
     /*!*Contact Section*!*/
     #contact{
         width: 100vw;
-        height: 49vh;
+        height: 92vh;
         position: relative;
         background-color: #212428;
     }
@@ -1363,7 +1363,7 @@ footer{
 
   /*  !*Footer Section*!*/
     footer{
-        height: 6vh;
+        height: 10vh;
     }
 
     #icon-div{
@@ -1596,7 +1596,7 @@ footer{
         height: calc(135vh - 230px);
     }
 
-    .project-box{
+    /*.project-box{
         width: 430px;
         height: 420px;
         position: relative;
@@ -1627,8 +1627,72 @@ footer{
         left: 30px;
         line-height: 1.5;
         font-size: medium;
+    }*/
+
+    .project-box{
+        width: 420px;
+        height: 440px;
+        border-radius: 10px;
+        position: relative;
+        top: 180px;
+        left: 43px;
+        overflow: hidden;
     }
 
+    /*.project-image{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        display: block;
+        transition: transform 0.5s;
+    }*/
+
+    /* .overlay {
+         width: 100%;
+         height: 0;
+         position: absolute;
+         left: 0;
+         bottom: 0;
+         overflow: hidden;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         padding: 0 40px;
+         text-align: center;
+         font-size: 14px;
+         transition: height 0.5s;
+     }*/
+    .project-header{
+        margin-bottom: 5px;
+        margin-top: 50%;
+        margin-right: 20%;
+        font-size: 25px;
+    }
+
+    .project-header:hover{
+        font-size: 30px;
+    }
+
+    .project-para{
+        margin-right: 20%;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    /* .project-box:hover .project-image{
+         transform: scale(1.1);
+     }
+
+     .project-box:hover .overlay{
+         height: 100%;
+     }
+ */
+    .project-git-hub{
+        position: relative;
+        top: 3px;
+        right: 43px;
+    }
     .git-hub{
         position: absolute;
         bottom: 20px;
