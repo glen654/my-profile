@@ -45,7 +45,7 @@ body::-webkit-scrollbar-thumb{
 /*Navigation Bar*/
 header{
     width: 100vw;
-    height: 15vh;
+    height: 13vh;
     background-color: #212428;
     position: fixed;
     z-index: 1;
@@ -217,7 +217,7 @@ header>nav>ul>li>button:hover{
     height: 100%;
     background-color: #212428;
     border-left: 2px solid #f4f5f6;
-    right: -8px;
+    right: -8px;background-image: linear-gradient(#212428, #212428),radial-gradient(circle at top left, #51a2e9, #ff4d5a);
     animation: cursor 5s infinite, typing 20s steps(14) infinite;
 }
 
@@ -268,7 +268,7 @@ hr {
     position: absolute;
     left: 0;
     right: 0;
-    border: 2px solid #16181c;
+    border: 2px solid black;
     margin-top: 0;
     margin-bottom: 0;
 
