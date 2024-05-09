@@ -632,7 +632,7 @@ hr {
 
 .blog-box{
     width: 500px;
-    height: 400px;
+    height: 550px;
     background: linear-gradient(to right bottom, #212428, #16181c);
     position: relative;
     top: 180px;
@@ -664,25 +664,32 @@ hr {
     font-weight: bold;
 }
 
-.view-more{
+.blog-desc{
     position: absolute;
-    bottom: 10px;
-    right: 35px;
+    top: 340px;
+    left: 30px;
     color: #f4f5f6;
+    line-height: 1.5;
+    font-weight: normal;
 }
 
-.fa-arrow-right{
-    display: none;
-    color: #f9004d;
+.btn-read{
     position: absolute;
-    top: 2px;
-    left: 90px;
+    bottom: 20px;
+    right: 40px;
+    width: 140px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid #f9004d;
+    background-color: #0d1013;
+    color: #f4f5f6;
+    font-weight: bold;
+    cursor: pointer;
 }
 
-.blog-box:hover .view-more,
-.blog-box:hover .fa-arrow-right{
-    color: #f9004d;
-    display: inline-block;
+.btn-read:hover{
+    background-color: #f9004d;
+    border: 2px solid #0d1013;
 }
 
 .blog-box:hover{
