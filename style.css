@@ -2670,22 +2670,26 @@ footer{
 
     #blog{
         width: 100vw;
-        height: 60vh;
+        height: 76vh;
         position: relative;
         background-color: #212428;
+
     }
 
     #blog-flex{
-        width: calc(100vw - 30px);
+        width: calc(100vw - 50px);
         display: flex;
         justify-content: space-around;
     }
 
     .blog-box{
-        width: 230px;
-        height: 330px;
+        width: 500px;
+        height: 550px;
         position: relative;
-        right: 5px;
+        top: 180px;
+        right: 40px;
+        left: 30px;
+        margin-right: 8px;
     }
 
     .blog-image{
@@ -2693,30 +2697,35 @@ footer{
         top: 20px;
         left: 0;
         right: 0;
-        margin: auto;
-        width: 200px;
-        height: 150px;
-        border-radius: 5px;
+        width: 223px;
+        height: 220px;
     }
 
     .blog-para{
         position: absolute;
-        top: 180px;
-        left: 20px;
+        top: 250px;
+        left: 8px;
+        color: #f4f5f6;
         line-height: 1.5;
         font-weight: bold;
+        font-size: 17px;
+    }
+
+    .blog-desc{
+        position: absolute;
+        top: 310px;
+        left: 11px;
         font-size: 13px;
+        line-height: 1.7;
     }
 
-    .view-more{
+    .btn-read{
         position: absolute;
-        right: 30px;
-    }
-
-    .fa-arrow-right{
-        display: none;
-        position: absolute;
-        left: 90px;
+        bottom: 7px;
+        right: 22px;
+        width: 86px;
+        height: 39px;
+        font-size: 11px;
     }
 
    /* !*Contact section*!*/
