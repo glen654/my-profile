@@ -2517,7 +2517,7 @@ footer{
 
     #services{
         width: 100vw;
-        height: 70vh;
+        height: 61vh;
         position: relative;
         background-color: #212428;
     }
@@ -2547,14 +2547,13 @@ footer{
         position: absolute;
         top: 120px;
         left: 15px;
-        color: #f4f5f6;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .service-box p{
         position: absolute;
-        top: 180px;
-        font-size: 10px;
+        top: 169px;
+        font-size: 11px;
         line-height: 2.0;
     }
 
