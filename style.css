@@ -2452,7 +2452,6 @@ footer{
         width: 100vw;
         height: 150vh;
         position: relative;
-        background-color: #212428;
     }
 
 
@@ -2519,7 +2518,6 @@ footer{
         width: 100vw;
         height: 61vh;
         position: relative;
-        background-color: #212428;
     }
 
     #service-flex{
@@ -2531,7 +2529,7 @@ footer{
     .service-box{
         width: 400px;
         height: 380px;
-        margin-right: 10px;
+        margin-right: 4px;
         position: relative;
         left: 10px;
     }
@@ -2552,7 +2550,7 @@ footer{
 
     .service-box p{
         position: absolute;
-        top: 169px;
+        top: 166px;
         font-size: 11px;
         line-height: 2.0;
     }
@@ -2563,7 +2561,6 @@ footer{
         width: 100vw;
         height: 145vh;
         position: relative;
-        background-color: #212428;
     }
 
     #projects-grid{
@@ -2672,8 +2669,6 @@ footer{
         width: 100vw;
         height: 76vh;
         position: relative;
-        background-color: #212428;
-
     }
 
     #blog-flex{
@@ -2705,7 +2700,6 @@ footer{
         position: absolute;
         top: 250px;
         left: 8px;
-        color: #f4f5f6;
         line-height: 1.5;
         font-weight: bold;
         font-size: 17px;
@@ -3016,7 +3010,7 @@ footer{
     .service-box{
         width: 400px;
         height: 380px;
-        margin-right: 10px;
+        margin-right: 5px;
         position: relative;
         left: 10px;
     }
@@ -3033,15 +3027,16 @@ footer{
     .service-box h3{
         position: absolute;
         top: 120px;
-        left: 15px;
+        left: 5px;
         color: #f4f5f6;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .service-box p{
         position: absolute;
-        top: 180px;
+        top: 170px;
         font-size: 8px;
+        left: 4px;
     }
 
    /* !*Project section*!*/
