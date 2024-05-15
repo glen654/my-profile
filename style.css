@@ -2047,7 +2047,7 @@ footer{
 
     #services{
         width: 100vw;
-        height: 70vh;
+        height: 59vh;
         position: relative;
         background-color: #212428;
     }
@@ -2067,7 +2067,9 @@ footer{
     }
 
     .service-box p{
-        font-size: 11px;
+        font-size: 12px;
+        position: absolute;
+        top:185px;
     }
 
   /*  !*Project section*!*/
