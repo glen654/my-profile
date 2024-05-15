@@ -2996,30 +2996,28 @@ footer{
 
     #services{
         width: 100vw;
-        height: 70vh;
+        height: 134vh;
         position: relative;
-        background-color: #212428;
     }
 
     #service-flex{
-        width: calc(100vw - 20px);
+        width: calc(100vw - 10px);
         display: flex;
-        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
     }
 
     .service-box{
-        width: 400px;
-        height: 380px;
-        margin-right: 5px;
+        width: 368px;
+        height: 320px;
+        margin-bottom: 20px;
         position: relative;
-        left: 10px;
+        left: 8px;
     }
 
     .service-box img{
         position: absolute;
-        right: 0;
-        left: 0;
-        margin: auto;
+        left: 20px;
         width: 80px;
         height: 80px;
     }
@@ -3027,16 +3025,14 @@ footer{
     .service-box h3{
         position: absolute;
         top: 120px;
-        left: 5px;
-        color: #f4f5f6;
-        font-size: 12px;
+        left: 15px;
+        font-size: 14px;
     }
 
     .service-box p{
         position: absolute;
-        top: 170px;
-        font-size: 8px;
-        left: 4px;
+        top: 160px;
+        font-size: 12px;
     }
 
    /* !*Project section*!*/
@@ -3356,7 +3352,6 @@ footer{
         width: 100vw;
         height: 155vh;
         position: relative;
-        background-color: #212428;
     }
 
     #hero-left{
@@ -3408,9 +3403,6 @@ footer{
         top: 263px;
     }
 
-    #hero-links>h4{
-        color: #f4f5f6;
-    }
 
     #animated-text{
         font-size: 28px;
@@ -3427,7 +3419,6 @@ footer{
         width: 100vw;
         height: 160vh;
         position: relative;
-        background-color: #212428;
     }
 
 
@@ -3497,7 +3488,6 @@ footer{
         width: 100vw;
         height: 150vh;
         position: relative;
-        background-color: #212428;
     }
 
     #service-flex{
@@ -3526,7 +3516,6 @@ footer{
         position: absolute;
         top: 120px;
         left: 15px;
-        color: #f4f5f6;
         font-size: 14px;
     }
 
@@ -3542,7 +3531,6 @@ footer{
         width: 100vw;
         height: 323vh;
         position: relative;
-        background-color: #212428;
     }
 
     #projects-grid{
@@ -3850,7 +3838,6 @@ footer{
         width: 100vw;
         height: 200vh;
         position: relative;
-        background-color: #212428;
     }
 
     #hero-left{
@@ -3902,9 +3889,6 @@ footer{
         top: 263px;
     }
 
-    #hero-links>h4{
-        color: #f4f5f6;
-    }
 
     #animated-text{
         font-size: 28px;
@@ -3921,7 +3905,6 @@ footer{
         width: 100vw;
         height: 210vh;
         position: relative;
-        background-color: #212428;
     }
 
 
@@ -3986,7 +3969,6 @@ footer{
         width: 100vw;
         height: 185vh;
         position: relative;
-        background-color: #212428;
     }
 
     #service-flex{
@@ -4015,7 +3997,6 @@ footer{
         position: absolute;
         top: 120px;
         left: 15px;
-        color: #f4f5f6;
         font-size: 14px;
     }
 
@@ -4031,7 +4012,6 @@ footer{
         width: 100vw;
         height: 410vh;
         position: relative;
-        background-color: #212428;
     }
 
     #projects-grid{
@@ -4197,7 +4177,6 @@ footer{
         width: 100vw;
         height: 84vh;
         position: relative;
-        background-color: #212428;
     }
 
     #contact-para{
