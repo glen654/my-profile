@@ -3590,56 +3590,56 @@ footer{
 
     #assignments{
         width: 100vw;
-        height: 280vh;
+        height: 515vh;
         position: relative;
-        background-color: #212428;
     }
 
     #assignment-grid{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        height: calc(280vh - 250px);
+        grid-gap: 10px;
+        height: calc(135vh - 230px);
     }
 
-    .assignment-box{
-        width: 350px;
-        height: 350px;
+    .card {
         position: relative;
-        left: 25px;
+        max-width : 332px;
+        height : 225px;
+        margin : 30px 10px;
+        padding : 20px 15px;
+        top: 200px;
+        left: 5px;
     }
 
-    .assignment-image{
-        position: absolute;
-        top: 20px;
+    .card:hover {
+        height : 320px;
+    }
+
+    .card .image {
+        position : relative;
+        width : 332px;
+        height : 300px;
+
+        top : -20%;
         left: 0;
         right: 0;
-        margin: auto;
-        width: 333px;
-        height: 180px;
-        border-radius: 5px;
+        z-index : 0;
     }
 
-    .assignment-header{
-        position: absolute;
-        top: 200px;
-        left: 30px;
-        font-size: small;
+    .card .image img {
+        max-width : 100%;
     }
 
-    .assignment-para{
-        position: absolute;
-        top: 230px;
-        left: 30px;
-        line-height: 1.5;
-        font-size: small;
+    .card .content {
+        position : relative;
+        top : -120px;
+        padding : 10px 15px;
+        text-align : center;
+        opacity : 0;
     }
-
-    .git-hub{
-        position: absolute;
-        bottom: 20px;
-        right: 30px;
+    .card:hover .content {
+        margin-top : 30px;
     }
-
 
    /* !*Blog section*!*/
 
