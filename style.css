@@ -1176,13 +1176,11 @@ footer{
         position: relative;
         max-width : 340px;
         height : 225px;
-        background-color : #16181c;
         margin : 30px 10px;
         padding : 20px 15px;
 
         display : flex;
         flex-direction : column;
-        box-shadow : 0 5px 20px rgba(0,0,0,0.5);
         transition : 0.3s ease-in-out;
         border-radius : 15px;
         top: 200px;
@@ -1200,7 +1198,6 @@ footer{
         top : -20%;
         left: 0;
         right: 0;
-        box-shadow : 0 5px 20px rgba(0,0,0,0.2);
         z-index : 0;
     }
 
@@ -1213,7 +1210,6 @@ footer{
         position : relative;
         top : -120px;
         padding : 10px 15px;
-        color : #f4f5f6;
         text-align : center;
 
         visibility : hidden;
@@ -1230,12 +1226,12 @@ footer{
     }
 
    /* !*Blog section*!*/
-
     #blog{
         width: 100vw;
-        height: 71vh;
+        height: 90vh;
         position: relative;
         background-color: #212428;
+
     }
 
     #blog-flex{
@@ -1246,13 +1242,12 @@ footer{
 
     .blog-box{
         width: 500px;
-        height: 400px;
+        height: 550px;
         position: relative;
         top: 180px;
-        right: 50px;
-        left: 24px;
-        border-radius: 10px;
-        margin-right: 10px;
+        right: 40px;
+        left: 30px;
+        margin-right: 15px;
     }
 
     .blog-image{
@@ -1260,31 +1255,33 @@ footer{
         top: 20px;
         left: 0;
         right: 0;
-        margin: auto;
-        width: 390px;
+        width: 388px;
         height: 220px;
-        border-radius: 5px;
     }
 
     .blog-para{
         position: absolute;
         top: 250px;
-        left: 30px;
+        left: 15px;
+        color: #f4f5f6;
         line-height: 1.5;
         font-weight: bold;
+        font-size: 20px;
     }
 
-    .view-more{
+    .blog-desc{
         position: absolute;
-        bottom: 10px;
-        right: 35px;
+        top: 320px;
+        left: 11px;
     }
 
-    .fa-arrow-right{
-        display: none;
+    .btn-read{
         position: absolute;
-        top: 2px;
-        left: 90px;
+        bottom: 20px;
+        right: 40px;
+        width: 125px;
+        height: 60px;
+        font-size: 15px;
     }
 
     /*!*Contact Section*!*/
