@@ -1563,7 +1563,7 @@ footer{
 
     #services{
         width: 100vw;
-        height: 60vh;
+        height: 50vh;
         position: relative;
         background-color: #212428;
     }
@@ -1589,7 +1589,7 @@ footer{
    /* !*Project section*!*/
     #projects{
         width: 100vw;
-        height: 135vh;
+        height: 120vh;
         position: relative;
         background-color: #212428;
     }
@@ -1599,7 +1599,7 @@ footer{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(3,1fr);
         grid-gap: 10px;
-        height: calc(135vh - 230px);
+        height: calc(135vh - 435px);
     }
 
 
