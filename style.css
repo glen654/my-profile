@@ -27,11 +27,6 @@ main{
     color: #f4f5f6;
 }
 
-/*.git-hub{
-    position: absolute;
-    bottom: 20px;
-    right: 30px;
-}*/
 
 /*Scroll-bar styles*/
 body::-webkit-scrollbar{
@@ -110,6 +105,30 @@ header>nav>ul>li>button:hover{
 
 .icon{
     display: none;
+}
+
+#hamburger{
+    display: none;
+    width: 330px;
+    height: 550px;
+    background: #212428;
+    position: relative;
+    right: 30px;
+    border-radius: 5px;
+}
+
+#hamburger>ul>li{
+    padding-top: 30px;
+    list-style: none;
+}
+
+#hamburger>ul>li>a{
+    text-decoration: none;
+    color: #c4cfde;
+}
+
+#hamburger>ul>li>a:hover{
+    color: #f4f5f6;
 }
 
 /*Home Section*/
