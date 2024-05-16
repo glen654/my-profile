@@ -114,8 +114,9 @@ header>nav>ul>li>button:hover{
     background-color: #212428;
     position: relative;
     top: 45px;
-    left: 70px;
+    left: 60px;
     border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 #hamburger>ul>li{
