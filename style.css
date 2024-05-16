@@ -1257,6 +1257,27 @@ footer{
 
     }
 
+    .assignment-git{
+        position: absolute;
+        bottom: 20px;
+        left: 140px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 14px;
+        right: 112px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
+    }
+
    /* !*Blog section*!*/
     #blog{
         width: 100vw;
@@ -1724,6 +1745,27 @@ footer{
     }
     .card:hover .content {
         margin-top : 30px;
+    }
+
+    .assignment-git{
+        position: absolute;
+        bottom: 20px;
+        left: 150px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 15px;
+        right: 126px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
     }
 
     /*!*Blog section*!*/
@@ -2213,6 +2255,28 @@ footer{
         margin-top : 30px;
     }
 
+    .assignment-git{
+        position: absolute;
+        bottom: 20px;
+        left: 140px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 15px;
+        right: 108px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
+    }
+
+
     /*!*Blog section*!*/
 
     #blog{
@@ -2693,6 +2757,27 @@ footer{
     }
     .card:hover .content {
         margin-top : 30px;
+    }
+
+    .assignment-git{
+        position: absolute;
+        bottom: 32px;
+        left: 120px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 27px;
+        right: 95px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
     }
 
    /* !*Blog section*!*/
@@ -3179,6 +3264,28 @@ footer{
     .card:hover .content {
         margin-top : 30px;
     }
+
+    .assignment-git{
+        position: absolute;
+        bottom: 27px;
+        left: 120px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 22px;
+        right: 112px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
+    }
+
 
    /* !*Blog section*!*/
 
@@ -3677,6 +3784,28 @@ footer{
         margin-top : 30px;
     }
 
+    .assignment-git{
+        position: absolute;
+        bottom: 27px;
+        left: 120px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 22px;
+        right: 112px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
+    }
+
+
    /* !*Blog section*!*/
 
     #blog{
@@ -4166,6 +4295,28 @@ footer{
     .card:hover .content {
         margin-top : 30px;
     }
+
+    .assignment-git{
+        position: absolute;
+        bottom: 27px;
+        left: 120px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 22px;
+        right: 112px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
+    }
+
 
     /*Blog section*/
 
@@ -4657,6 +4808,26 @@ footer{
         margin-top : 30px;
     }
 
+    .assignment-git{
+        position: absolute;
+        bottom: 27px;
+        left: 120px;
+    }
+
+    .demo{
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        bottom: 22px;
+        right: 112px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .demo a{
+        position: relative;
+        top: 6px;
+    }
 
     /*Blog section*/
 
