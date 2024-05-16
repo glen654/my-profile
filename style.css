@@ -2836,6 +2836,14 @@ footer{
 }
 
 @media all and (min-width: 425px) and (max-width: 430px){
+    /*Heading*/
+    .sub-heading{
+        font-size: 18px;
+    }
+
+    .main-heading{
+        font-size: 31px;
+    }
 
    /* !*Header section*!*/
 
@@ -3327,6 +3335,14 @@ footer{
 }
 
 @media all and (min-width: 375px) and (max-width: 425px){
+    /*Headings*/
+    .sub-heading{
+        font-size: 16px;
+    }
+
+    .main-heading{
+        font-size: 29px;
+    }
 
 /*    !*Header*!*/
 
@@ -3814,6 +3830,14 @@ footer{
 }
 
 @media all and (min-width: 320px) and (max-width: 375px){
+    /*Headings*/
+    .sub-heading{
+        font-size: 15px;
+    }
+
+    .main-heading{
+        font-size: 28px;
+    }
 
    /* !*Header*!*/
 
@@ -4295,6 +4319,14 @@ footer{
 }
 
 @media all and (max-width: 320px){
+    /*Headings*/
+    .sub-heading{
+        font-size: 15px;
+    }
+
+    .main-heading{
+        font-size: 28px;
+    }
 
     /*Header section*/
 
