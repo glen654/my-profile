@@ -961,6 +961,9 @@ footer{
     margin-left: 280px;
 }
 
+.footer-icons{
+    transition: transform 0.5s;
+}
 .footer-icons:hover{
     transform: scale(1.2);
 }
