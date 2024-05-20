@@ -117,7 +117,9 @@ header>nav>ul>li>button:hover{
     left: 60px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    animation: hamburger 0.5 ease-in;
 }
+
 
 #hamburger>ul>li{
     padding-top: 30px;
@@ -153,10 +155,6 @@ header>nav>ul>li>button:hover{
 
 #hamburger>ul>li>a:hover{
     color: #f4f5f6;
-}
-
-#hamburger{
-
 }
 
 #x-icon{
