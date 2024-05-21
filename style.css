@@ -621,6 +621,7 @@ hr {
     border-radius : 15px;
     top: 200px;
     left: 20px;
+    cursor: pointer;
 }
 .card:hover {
     height : 320px;
