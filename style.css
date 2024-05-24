@@ -617,7 +617,7 @@ hr {
     display : flex;
     flex-direction : column;
     box-shadow : 0 5px 20px rgba(0,0,0,0.5);
-    transition : 0.3s ease-in-out;
+    transition : 0.5s ease-in-out;
     border-radius : 15px;
     top: 200px;
     left: 20px;
@@ -653,7 +653,7 @@ hr {
 
     visibility : hidden;
     opacity : 0;
-    transition : 0.3s ease-in-out;
+    transition : 0.2s ease-in-out;
 
 }
 .card:hover .content {
