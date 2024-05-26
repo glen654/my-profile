@@ -553,6 +553,7 @@ hr {
     transition: height 0.5s;
 }
 .project-header{
+    text-decoration: none;
     margin-bottom: 5px;
     margin-top: 50%;
     margin-right: 12%;
