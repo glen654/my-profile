@@ -88,14 +88,18 @@ header>nav>ul>li>button{
     width: 120px;
     height: 50px;
     border-radius: 10px;
-    color: #f4f5f6;
-    font-weight: 500;
     background-color: #0d1013;
     border: 1px solid  #0d1013;
     box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
     text-shadow: none;
     transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
     cursor: pointer;
+}
+
+header>nav>ul>li>button>a{
+    text-decoration: none;
+    color: #f4f5f6;
+    font-weight: 500;
 }
 
 header>nav>ul>li>button:hover{
@@ -1523,6 +1527,16 @@ footer{
         right: 50px;
     }
 
+    #hamburger{
+        display: none;
+        width: 500px;
+        height: 550px;
+    }
+
+    #hamburger>ul>li{
+        font-size: 20px;
+    }
+
    /* !*Home Section*!*/
     #home{
         width: 100vw;
@@ -2022,6 +2036,15 @@ footer{
         height: 30px;
     }
 
+    #hamburger{
+        display: none;
+        width: 500px;
+        height: 550px;
+    }
+
+    #hamburger>ul>li{
+        font-size: 20px;
+    }
 
    /* !*Home section*!*/
     #home{
@@ -2523,6 +2546,16 @@ footer{
         position: absolute;
         top: 0;
         right: 50px;
+    }
+
+    #hamburger{
+        display: none;
+        width: 500px;
+        height: 550px;
+    }
+
+    #hamburger>ul>li{
+        font-size: 20px;
     }
 
     /*!*Home section*!*/
