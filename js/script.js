@@ -7,3 +7,12 @@ document.getElementById('hamburger-menu').addEventListener('click', function () 
     icon.style.display = (icon.style.display === 'block') ? 'none' : 'block';
     close.style.display = (close.style.display === 'none') ? 'block' : 'none';
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('preloader').style.display = 'none';
+            document.getElementsByTagName('main').style.display = 'block';
+        }, 2000);
+    };
+});
