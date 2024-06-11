@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
         setTimeout(function() {
             document.getElementById('preloader').style.display = 'none';
             document.getElementById('home').style.display = 'block';
-        }, 2000);
+        }, 1800);
     };
 });
 
