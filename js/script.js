@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
     window.onload = function() {
         setTimeout(function() {
             document.getElementById('preloader').style.display = 'none';
-            document.getElementsByTagName('main').style.display = 'block';
+            document.getElementById('home').style.display = 'block';
         }, 2000);
     };
 });
