@@ -1,731 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="This portfolio website showcases the work and expertise of Glen Alloy Perera,
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This portfolio website showcases the work and expertise of Glen Alloy Perera,
     a Full Stack Developer from Sri Lanka.The website provides information about the developer, including skills,completed projects, and contact details.
     It also highlights the services offered, such as Application Development,Web Development, and UI/UX Design.
-    Visitors can explore the latest projects and assignments completed by the developer.">
-    <meta name="keywords" content="Glen Alloy Perera software engineer fullstack developer programming">
-    <meta name="author" content="Glen Alloy Perera">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Visitors can explore the latest projects and assignments completed by the developer."
+    />
+    <meta
+      name="keywords"
+      content="Glen Alloy Perera software engineer fullstack developer programming"
+    />
+    <meta name="author" content="Glen Alloy Perera" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glen Alloy Perera</title>
     <!--Font-Awesome-->
-    <link rel="stylesheet" href="assets/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="assets/fontawesome-free-6.5.1-web/css/all.min.css"
+    />
     <!--Normalize Css-->
-    <link rel="stylesheet" href="assets/normalize.css">
+    <link rel="stylesheet" href="assets/normalize.css" />
     <!--AOS-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--Custom Style Sheet-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!--Google Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
-<!--Loader-->
-<div id="preloader">
-    <div class="loader"></div>
-</div>
-
-<main>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Loader
+    <div id="preloader">
+      <div class="loader"></div>
+    </div> -->
 
     <!--Header section-->
     <header>
-        <img src="assets/images/new%20logo.png" title="glen" alt="glen-logo">
+      <div class="navbar">
+        <h1 class="logo">GLEN ALLOY.</h1>
         <nav>
-            <ul>
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#assignments">Assignments</a>
-                </li>
-                <li>
-                    <a href="#blog">Blog</a>
-                </li>
-                <li>
-                    <button type="button"><a href="#contact">Contact</a></button>
-                </li>
-                <li>
-                    <a class="icon" id="hamburger-menu" >
-                        <i class="fa-solid fa-bars fa-2xl" id="hamburger-icon" style="color: #c33737;"></i>
-                        <i class="fa-solid fa-xmark fa-flip-horizontal fa-2xl" id="x-icon" style="color: #c33737;"></i>
-                        <div id="hamburger">
-                            <ul>
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about">About</a>
-                                </li>
-                                <li>
-                                    <a href="#services">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#projects">Projects</a>
-                                </li>
-                                <li>
-                                    <a href="#assignments">Assignments</a>
-                                </li>
-                                <li>
-                                    <a href="#blog">Blog</a>
-                                </li>
-                                <li>
-                                    <button>Contact</button>
-                                </li>
-                            </ul>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+          <a href="" class="active">Home</a>
+          <a href="">About</a>
+          <a href="">Services</a>
+          <a href="">Projects</a>
+          <a href="">Contact</a>
         </nav>
+      </div>
     </header>
 
     <!--Home Section-->
 
-    <section id="home">
-        <!--hero left side-->
-        <div id="hero-left"  data-aos="fade-right" data-aos-duration="2500">
-            <!--hero heading-->
-            <div>
-                <h1>
-                    HI,There! <p>I'M GLEN</p>
-                    <img src="assets/images/waving-hand.png" title="waving-hand" alt="waving-hand-image" width="30px" height="30px">
-                </h1>
-                <div id="animated-text">
-                    <strong>a</strong>&nbsp<span></span>
+    <main>
+      <section class="hero-wrapper">
+        <div class="hero">
+            <div class="left">
+                <div class="info">
+                    <p class="message">Welcome to my portfolio!</p>
+                    <p class="title">Hello, my <br> name's <span>GLEN ALLOY.</span></p>
+                    <p class="description">I'm a Full-Stack from Sri Lanka. <br> Creating responsive, interactive websites  <br> and applications</p>
                 </div>
-
+                <div class="btns">
+                    <a href="" class="download-btn">Download CV</a>
+                    <a href="" class="see-work-btn">See my work <img src="/assets/images/arrow-up-solid.svg" alt=""></a>
+                </div>
             </div>
-            <!--hero paragraph-->
-            <div id="para" data-aos="zoom-in" data-aos-duration="2850">
-                <p>
-                    Drive in to discover how i can bring your ideas to life and elevate your digital presence. Welcome to a world of endless possibilities in software development.
-                </p>
-            </div>
-            <!--hero links-->
-            <div id="hero-links" data-aos="fade-up" data-aos-duration="2900">
-                <h4>Find Me On</h4>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/glenperera/">
-                        <i class="fa-brands fa-linkedin-in fa-xl" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="https://github.com/glen654">
-                        <i class="fa-brands fa-github fa-xl" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="https://medium.com/@glenalloy8">
-                        <i class="fa-brands fa-medium fa-xl" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-
-            </div>
-
+            <div class="right"></div>
         </div>
-
-        <!--hero right side-->
-        <div id="hero-right" data-aos="zoom-in" data-aos-duration="3000">
-            <img src="assets/images/portfolio-image.png" title="portfolio-image" alt="image of glen perera" width="600px" height="700px">
-        </div>
-
-    </section>
-
-
-    <!--About Section-->
-    <section id="about">
-        <hr>
-        <h5 class="sub-heading">Skills</h5>
-        <h2 class="main-heading">About</h2>
-        <br>
-
-        <!--hero left side-->
-        <div id="about-hero-left">
-            <div id="profile-picture" data-aos="zoom-in-down" data-aos-duration="1600">
-                <img src="assets/images/profile-image.png" title="profile-image" alt="image of glen perera" width="500px" height="400px">
-            </div>
-            <p data-aos="fade-up" data-aos-duration="1800">
-                Hard-working Software Engineering student from Sri Lanka. Also a former Administrative Officer and a future Full-Stack Developer. I love spending time coding and encountering new challenges. I'm highly adaptable to new challenges and projects. I'm currently a Software Engineering student at IJSE and I have skills with technologies that you are seeing.
-            </p>
-            <button type="button" data-aos="zoom-in" data-aos-duration="2000"><a href="assets/pdf/Glen%20Perera%20Web%20CV.2022.pdf" download >Download CV</a></button>
-        </div>
-        <br>
-
-        <!--hero right side-->
-        <div class="skills">
-            <div class="skills-row">
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="300"
-                     data-aos-offset="0" data-aos-duration="2100">
-                    <img src="assets/images/python.png" title="python" alt="python-logo" width="50px" height="50px" id="python"><br>
-                    <label for="python" class="skills-item-name">Python</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="300"
-                     data-aos-offset="0" data-aos-duration="2200">
-                    <img src="assets/images/css.png" title="css" alt="css-logo" width="50px" height="50px" id="css"><br>
-                    <label for="css" class="skills-item-name">CSS</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="300"
-                     data-aos-offset="0" data-aos-duration="2300">
-                    <img src="assets/images/git.png" title="git" alt="git-logo" width="50px" height="50px" id="git"><br>
-                    <label for="git" class="skills-item-name">Git</label>
-                </div>
-            </div>
-
-            <div class="skills-row">
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="400"
-                     data-aos-offset="0" data-aos-duration="2400">
-                    <img src="assets/images/java.png" title="java" alt="java-logo" width="50px" height="50px" id="java"><br>
-                    <label for="java" class="skills-item-name">Java</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="400"
-                     data-aos-offset="0" data-aos-duration="2500">
-                    <img src="assets/images/mysql.png" title="mysql" alt="mysql-logo" width="50px" height="50px" id="mysql"><br>
-                    <label for="mysql" class="skills-item-name">Mysql</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="400"
-                     data-aos-offset="0" data-aos-duration="2600">
-                    <img src="assets/images/javascript.png" title="javascript" alt="javascript-logo" width="50px" height="50px" id="javascript"><br>
-                    <label for="javascript" class="skills-item-name">Javascript</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="400"
-                     data-aos-offset="0" data-aos-duration="2700">
-                    <img src="assets/images/html.png" title="html" alt="html-logo" width="50px" height="50px" id="html"><br>
-                    <label for="html" class="skills-item-name ">HTML</label>
-                </div>
-            </div>
-
-            <div class="skills-row">
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="500"
-                     data-aos-offset="0" data-aos-duration="2800">
-                    <img src="assets/images/react.png" title="react" alt="react-logo" width="50px" height="50px" id="react"><br>
-                    <label for="react" class="skills-item-name">React</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="500"
-                     data-aos-offset="0" data-aos-duration="2900">
-                    <img src="assets/images/bootstrap.png" title="bootstrap" alt="bootstrap-logo" width="50px" height="50px" id="bootstrap"><br>
-                    <label for="bootstrap" class="skills-item-name">Bootstrap</label>
-                </div>
-                <br>
-                <div class="skills-item" data-aos="fade-zoom-in"
-                     data-aos-easing="ease-in-back"
-                     data-aos-delay="500"
-                     data-aos-offset="0" data-aos-duration="3000">
-                    <img src="assets/images/flutter.png" title="flutter" alt="flutter-logo" width="50px" height="50px" id="flutter"><br>
-                    <label for="flutter" class="skills-item-name">Flutter</label>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-
-    <!--Services Section-->
-    <section id="services">
-        <hr>
-        <h5 class="sub-heading">What I Do</h5>
-        <h2 class="main-heading">Services</h2>
-        <br>
-
-        <!--Services-->
-        <div id="service-flex">
-            <div class="service-box" data-aos="fade-up"
-                 data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-                <img src="assets/images/web.png" title="web-development" alt="web-development image">
-                <h3>Web Development</h3>
-                <p>
-                    I design and develop dynamic, responsive, and scalable websites that captivate users and drive
-                    engagement. With a strong focus on user experience, I employ modern frontend frameworks and backend
-                    technologies to create intuitive interfaces and efficient backend systems.
-                </p>
-            </div>
-            <div class="service-box" data-aos="fade-down"
-                 data-aos-anchor-placement="top-bottom" data-aos-duration="1600">
-                <img src="assets/images/app.png" title="app-development" alt="app-development image">
-                <h3>App Development</h3>
-                <p>
-                    I specialize in creating robust and user-friendly applications for various platforms. Leveraging
-                    the latest technologies and best practices, I build custom solutions tailored to meet your specific
-                    needs.I ensure seamless functionality, high performance, and a delightful user experience.
-                </p>
-            </div>
-            <div class="service-box" data-aos="fade-up"
-                 data-aos-anchor-placement="top-bottom" data-aos-duration="1700">
-                <img src="assets/images/ui.png" title="ui/ux-design" alt="ui/ux design image">
-                <h3>UI/UX Design</h3>
-                <p>
-                    I excel at crafting intuitive and visually stunning user interfaces. I meticulously blend creativity
-                    with usability, conducting thorough research and user testing to create designs that resonate with
-                    your target audience. I bring aesthetics and functionality together to leave a lasting
-                    impression on users.
-                </p>
-            </div>
-        </div>
-    </section>
-
-
-    <!--Project Section-->
-    <section id="projects">
-        <hr>
-        <h5 class="sub-heading">Recent Projects</h5>
-        <h2 class="main-heading">Projects</h2>
-
-        <!--Projects-->
-        <div id="projects-grid">
-            <div class="project-box" data-aos="zoom-in" data-aos-duration="1700">
-                <img src="assets/images/connect-four.png" title="connect-four" alt="connectfour-image" class="project-image">
-                <div class="overlay">
-                    <a href="" class="project-header">Connect Four</a>
-                    <p class="project-para">
-                        Dive into Connect-Four with this Java-based project,
-                        where meticulous coding ensures every move counts.
-                        Navigate the virtual arena strategically, honing your Java skills through gameplay.
-                        It's more than a game; it's a journey toward mastering software development.
-                    </p>
-                    <a href="https://github.com/glen654/connect-four-game.git">
-                        <i class="fa-brands fa-github fa-2xl project-git-hub" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project-box" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="assets/images/hr-navigator.png" title="hr-navigator" alt="hr-navigator-image" class="project-image">
-                <div class="overlay">
-                    <a href="" class="project-header">HR Navigator</a>
-                    <p class="project-para">
-                        Embark on a journey through HR management with this innovative system,
-                        blending Java, MySQL, and JavaFX. Seamlessly crafted,
-                        it streamlines operations with intuitive design and robust functionality.
-                        Explore the synergy of technology and human resources in a single, empowering solution.
-                    </p>
-                    <a href="https://github.com/glen654/human-resource-management.git">
-                        <i class="fa-brands fa-github fa-2xl project-git-hub" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="project-box" data-aos="zoom-in" data-aos-duration="1600">
-                <img src="assets/images/chatterbox.png" title="chatterbox" alt="chatterbox-image" class="project-image">
-                <div class="overlay">
-                    <a href="" class="project-header">Chatterbox</a>
-                    <p class="project-para">
-                        Step into the world of real-time communication with Chatterbox, a Java-based chat application.
-                        Powered by intricate socket programming and beyond, it offers seamless messaging experiences.
-                        Explore the realm of connectivity and interaction through this innovative platform.
-                    </p>
-                    <a href="https://github.com/glen654/play-tech-chat-application.git">
-                        <i class="fa-brands fa-github fa-2xl project-git-hub" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-            </div>
-
-            <div class="project-box" data-aos="zoom-in" data-aos-duration="1800">
-                <img src="assets/images/book-worm-project.png" title="hr-navigator" alt="hr-navigator-image" class="project-image">
-                <div class="overlay">
-                    <a href="" class="project-header">Book Worm</a>
-                    <p class="project-para">
-                        Enter the realm of organized knowledge with our Library Management System,
-                        crafted with Java and Hibernate. Seamlessly manage resources and patrons, fostering a
-                        smooth experience for all.
-                        Delve into the world of literature with this innovative fusion of technology and library science.
-                    </p>
-                    <a href="https://github.com/glen654/human-resource-management.git">
-                        <i class="fa-brands fa-github fa-2xl project-git-hub" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="project-box" data-aos="zoom-in" data-aos-duration="1900">
-                <img src="assets/images/project%20backgorund-generator.png" title="chatterbox" alt="chatterbox-image" class="project-image">
-                <div class="overlay">
-                    <a href="https://glen654.github.io/background-generator/" class="project-header">Background&nbspGenerator</a>
-                    <p class="project-para">
-                        Indulge your creativity with our Background Gradient Generator,
-                        crafted with HTML, CSS, and JavaScript.
-                        Seamlessly blend hues and shades to create stunning gradients for your web projects.
-                        Explore the artistry of design with this intuitive and versatile tool.
-                    </p>
-                    <a href="https://github.com/glen654/background-generator.git">
-                        <i class="fa-brands fa-github fa-2xl project-git-hub" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="project-box" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="assets/images/startup-landing-page.png" title="connect-four" alt="connectfour-image" class="project-image">
-                <div class="overlay">
-                    <a href="https://glen654.github.io/startup_landing_page/" class="project-header">Startup&nbspLanding&nbspPage</a>
-                    <p class="project-para">
-                        Embark on an entrepreneurial journey with our Startup Landing Page,
-                        meticulously crafted using HTML and CSS. Seamlessly designed, it captures your vision,
-                        enticing visitors to explore further.
-                        Dive into innovation and possibilities with this dynamic introduction to your startup venture.
-                    </p>
-                    <a href="https://github.com/glen654/startup_landing_page.git">
-                        <i class="fa-brands fa-github fa-2xl project-git-hub" style="color: #ffffff;"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-
-    <!--Assignment Section-->
-    <section id="assignments">
-        <hr>
-        <h5 class="sub-heading">Recent Assignments</h5>
-        <h2 class="main-heading">Assignments</h2>
-
-        <!--Assignments-->
-        <div id="assignment-grid">
-            <div class = card data-aos="zoom-in" data-aos-easing="linear"
-                 data-aos-duration="1500">
-                <div class = image>
-                    <img href = "#" src ="assets/images/wire-frame.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 01</h3>
-                    <p>Wrote down requirements,Designed a Wireframe and MockUp to Portfolio in the Assignment one.</p>
-                </div>
-                <a href="https://github.com/glen654/my-profile.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://github.com/glen654/my-profile.git">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"data-aos-easing="linear"
-                 data-aos-duration="1500" >
-                <div class = image>
-                    <img href = "#" src ="assets/images/port-html.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 02</h3>
-                    <p>Developed the HTML of my Portfolio according to the Mockup in Assignment two.</p>
-                </div>
-                <a href="https://github.com/glen654/my-profile.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in" data-aos-easing="linear"
-                 data-aos-duration="1500">
-                <div class = image>
-                    <img href = "#" src ="assets/images/assignment-03.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 03</h3>
-                    <p>Done six exercises using HTML and CSS in Assignment three.</p>
-                </div>
-                <a href="https://github.com/glen654/Assignment-3.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Assignment-3/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in" data-aos-easing="linear"
-                 data-aos-duration="1500">
-                <div class = image>
-                    <img href = "#" src ="assets/images/assignment-02.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 04</h3>
-                    <p>Done Six Exercises using HTML and CSS in Assignment four.</p>
-                </div>
-                <a href="https://github.com/glen654/Assignment-04.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Assignment-04/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-easing="ease-in-sine" data-aos-duration="1800">
-                <div class = image>
-                    <img href = "#" src ="assets/images/port.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 05</h3>
-                    <p>Added CSS to the Portfolio using CSS and made the Portfolio responsive using Media Queries.</p>
-                </div>
-                <a href="https://github.com/glen654/my-profile.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/my-profile/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-easing="ease-in-sine" data-aos-duration="1800">
-                <div class = image>
-                    <img href = "#" src ="assets/images/pos-ui.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 06</h3>
-                    <p>Designed a Wireframe and Mockup to the POS System and Developed the POS using Bootstrap.</p>
-                </div>
-                <a href="https://github.com/glen654/Pos-System.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Pos-System/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-easing="ease-in-sine" data-aos-duration="1800">
-                <div class = image>
-                    <img href = "#" src ="assets/images/pos-ui.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 07</h3>
-                    <p>Made the Developed Pos System a SPA(Single Page Application) and added the JS Navigation.</p>
-                </div>
-                <a href="https://github.com/glen654/Pos-System.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Pos-System/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-easing="ease-in-sine" data-aos-duration="1800">
-                <div class = image>
-                    <img href = "#" src ="assets/images/assignment-08.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 08</h3>
-                    <p>Done Two Exercises using HTML,CSS and Javascript.</p>
-                </div>
-                <a href="https://github.com/glen654/Assignment-08.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Assignment-08/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-duration="2000">
-                <div class = image>
-                    <img href = "#" src ="assets/images/assignment-09.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 09</h3>
-                    <p>Developed a Knight Rider circuit using HTML,CSS and Javascript.</p>
-                </div>
-                <a href="https://github.com/glen654/Assignment-09.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Assignment-09/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-duration="2000">
-                <div class = image>
-                    <img href = "#" src ="assets/images/assignment-10.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 10</h3>
-                    <p>Developed a Calculator using HTML,CSS and Javascript.</p>
-                </div>
-                <a href="https://github.com/glen654/calculator.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/calculator/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-duration="2000">
-                <div class = image>
-                    <img href = "#" src ="assets/images/pos-ui.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 11</h3>
-                    <p>Developed the Customer functionalities,Item functionalities and Place-order functionalities of Pos system using Javascript.</p>
-                </div>
-                <a href="https://github.com/glen654/Pos-System.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Pos-System/">View&nbspMore</a>
-                </div>
-            </div>
-            <div class = card data-aos="zoom-in"
-                 data-aos-duration="2000">
-                <div class = image>
-                    <img href = "#" src ="assets/images/pos-ui.png">
-                </div>
-                <div class = content>
-                    <h3>Assignment 12</h3>
-                    <p>Added the validation and completed all the functionalities of the POS System using Javascript.</p>
-                </div>
-                <a href="https://github.com/glen654/Pos-System.git">
-                    <i class="fa-brands fa-github fa-xl assignment-git" style="color: #ffffff;"></i>
-                </a>
-                <div class="demo">
-                    <a href="https://glen654.github.io/Pos-System/">View&nbspMore</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!--Blog Section-->
-    <section id="blog">
-        <hr>
-        <h5 class="sub-heading">Visit My Blog and Keep Your Feedback</h5>
-        <h2 class="main-heading">Blog</h2>
-        <br>
-
-        <!--Blogs-->
-        <div id="blog-flex">
-            <div class="blog-box" data-aos="zoom-in" data-aos-duration="1500">
-                <img src="assets/images/css-blog.jpg" title="css" alt="css-blog-image" class="blog-image">
-                <h2 class="blog-para">
-                    CSS Units -  When to use rem, em px and more
-                </h2>
-                <div class="blog-desc">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, excepturi ipsam ipsum molestias placeat provident sapiente tempora velit vitae voluptatum. Consectetur culpa doloremque enim et facilis officia quaerat sapiente, unde.
-                    </p>
-                </div>
-                <button class="btn-read">Read More</button>
-
-            </div>
-            <br>
-            <div class="blog-box" data-aos="zoom-in" data-aos-duration="1800">
-                <img src="assets/images/next-blog.png" title="nextjs-blog" alt="nextjs-blog-image" class="blog-image">
-                <h2 class="blog-para">
-                    How to deploy Next.js Apps to Github pages
-                </h2>
-                <div class="blog-desc">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, excepturi ipsam ipsum molestias placeat provident sapiente tempora velit vitae voluptatum. Consectetur culpa doloremque enim et facilis officia quaerat sapiente, unde.
-                    </p>
-                </div>
-                <button class="btn-read">Read More</button>
-
-            </div>
-            <br>
-            <div class="blog-box" data-aos="zoom-in" data-aos-duration="2100">
-                <img src="assets/images/react-blog.png" title="react" alt="react-blog-image" class="blog-image">
-                <h2 class="blog-para">
-                    Learn React - Props The Animated Guide
-                </h2>
-                <div class="blog-desc">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, excepturi ipsam ipsum molestias placeat provident sapiente tempora velit vitae voluptatum. Consectetur culpa doloremque enim et facilis officia quaerat sapiente, unde.
-                    </p>
-                </div>
-                <button class="btn-read">Read More</button>
-            </div>
-        </div>
-
-    </section>
-
-
-
-    <!--Contact Section-->
-    <section id="contact">
-        <hr>
-        <h5 class="sub-heading">Contact With Me</h5>
-        <h2 class="main-heading">Contact</h2>
-        <br>
-
-        <p id="contact-para" data-aos="zoom-in" data-aos-duration="1500">
-            Have a question or want to work together? Leave your <br>
-            details and i'll get back to you as soon as possible
-        </p>
-
-
-        <div id="contact-div" data-aos="flip-down" data-aos-duration="1500">
-            <form id="contact-form">
-                <div>
-                    <input type="text" id="name" placeholder="Name" class="input-cus">&nbsp&nbsp&nbsp
-                    <input type="text" id="subject" placeholder="Subject" class="input-cus">
-                </div>
-                <br>
-                <div>
-                    <input type="email" id="email" placeholder="Email" class="input-cus">
-                </div>
-                <br>
-                <div>
-                    <textarea placeholder="Message" id="message" cols="50" rows="10" class="input-cus"></textarea>
-                </div>
-                <br>
-                <div>
-                    <button class="submit-button" role="button"><span class="text">Submit</span></button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!--Footer-->
-    <footer>
-        <div id="icon-div">
-            <a href="https://www.facebook.com/glen.alloy.1">
-                <i class="fa-brands fa-facebook fa-2xl footer-icons" style="color: #f4f5f6;"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/glenperera/">
-                <i class="fa-brands fa-linkedin fa-2xl footer-icons" style="color: #f4f5f6;"></i>
-            </a>
-            <a href="https://github.com/glen654">
-                <i class="fa-brands fa-github fa-2xl footer-icons" style="color: #f4f5f6;"></i>
-            </a>
-        </div>
-        <br>
-        <div id="copyright">
-            <i class="fa-solid fa-copyright fa-xl" style="color: #f4f5f6;"></i><strong id="line">&nbspDesigned by Glen Alloy 2024</strong>
-        </div>
-    </footer>
-</main>
-
-<!--Font-Awesome JS-->
-<script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
-<!--Custom Js file-->
-<script src="js/script.js"></script>
-<!--AOS Js-->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-</body>
+      </section>
+    </main>
+    <!--Font-Awesome JS-->
+    <script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
+    <!--Custom Js file-->
+    <script src="js/script.js"></script>
+    <!--AOS Js-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
