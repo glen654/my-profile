@@ -27,51 +27,68 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--Custom Style Sheet-->
     <link rel="stylesheet" href="style.css" />
-    <!--Google Font-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="https://lottie.host/3d60f402-94b0-47c4-aef9-8c536b18f246/yoqbFx0TCb.lottie">
   </head>
   <body>
-    <!-- Loader
-    <div id="preloader">
-      <div class="loader"></div>
-    </div> -->
-
-    <!--Header section-->
     <header>
-      <div class="navbar">
+      <nav>
         <h1 class="logo">GLEN ALLOY.</h1>
-        <nav>
-          <a href="" class="active">Home</a>
-          <a href="">About</a>
-          <a href="">Services</a>
-          <a href="">Projects</a>
-          <a href="">Contact</a>
-        </nav>
-      </div>
+        <div class="lists">
+          <a href="" class="list active">Home</a>
+          <a href="" class="list">About</a>
+          <a href="" class="list">Skills</a>
+          <a href="" class="list">Projects</a>
+          <a href="" class="list">Contact</a>
+        </div>
+        <a href="" class="download-btn top-nav" download
+          >Download CV <i class="fa-solid fa-file-lines"></i
+        ></a>
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
     </header>
-
-    <!--Home Section-->
-
-    <main>
-      <section class="hero-wrapper">
-        <div class="hero">
-            <div class="left">
-                <div class="info">
-                    <p class="message">Welcome to my portfolio!</p>
-                    <p class="title">Hello, my <br> name's <span>GLEN ALLOY.</span></p>
-                    <p class="description">I'm a Full-Stack from Sri Lanka. <br> Creating responsive, interactive websites  <br> and applications</p>
-                </div>
-                <div class="btns">
-                    <a href="" class="download-btn">Download CV</a>
-                    <a href="" class="see-work-btn">See my work <img src="/assets/images/arrow-up-solid.svg" alt=""></a>
-                </div>
+    <main class="main-container">
+      <section id="hero">
+        <div class="left">
+          <span class="name">GLEN ALLOY</span>
+          <h2 class="title">I'm a <span>Full-Stack Developer</span></h2>
+          <p class="description">
+            Drive in to discover how i can bring your ideas to life and elevate
+            your digital presence. Welcome to a world of endless possibilities
+            in software development.
+          </p>
+          <div class="btns">
+            <a href="" class="contact-btn">Contact Me</a>
+            <a href="" class="download-btn top-nav" download
+              >Download CV <i class="fa-solid fa-file-lines"></i
+            ></a>
+          </div>
+          <div class="social-icons">
+            <a href="" class="social-icon github">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="" class="social-icon linkedin">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="" class="social-icon facebook">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+        <div class="right">
+          <div class="hero-wrapper">
+            <div class="hero-img">
+              <dotlottie-player
+              src="https://lottie.host/3d60f402-94b0-47c4-aef9-8c536b18f246/yoqbFx0TCb.lottie"
+              background="transparent"
+              speed="1"
+              style="width: 900px; height: 400px"
+              loop
+              autoplay
+            ></dotlottie-player>
             </div>
-            <div class="right"></div>
+          </div>
         </div>
       </section>
     </main>
@@ -84,5 +101,9 @@
     <script>
       AOS.init();
     </script>
+    <script
+    src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+    type="module"
+  ></script>
   </body>
 </html>
