@@ -9,9 +9,7 @@
 body {
   font-family: Poppins;
   background-color: #000;
-  background: #283048;
-  background: -webkit-linear-gradient(to right, #859398, #283048);
-  background: linear-gradient(to right, #859398, #283048);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 header {
@@ -98,7 +96,7 @@ nav {
 
 .left .name {
   background-color: aqua;
-  color: #fff;
+  color: black;
   width: max-content;
   padding: 5px 15px;
   border-radius: 10px;
@@ -158,8 +156,7 @@ nav {
   font-size: 40px;
 }
 
-
-.right{
+.right {
   width: 50%;
   max-width: 100%;
   display: flex;
@@ -167,8 +164,7 @@ nav {
   justify-content: flex-end;
 }
 
-.hero-wrapper{
-  /* background-color: yellow; */
+.hero-wrapper {
   height: 400px;
   width: 380px;
   border-bottom-left-radius: 50%;
@@ -179,15 +175,115 @@ nav {
   justify-content: center;
 }
 
-/* .hero-img{
-  width: 360px;
-  height: 360px;
-  background-image: radial-gradient(#ff6200,purple);
-  border-radius: 50%;
+.hero-img dotlottie-player{
+  width: 900px;
+  height: 400px;
 }
 
-.hero-img dotlottie-player{
-  width: 110%;
-  height: 100%;
-  object-fit: cover;
-} */
+.scrolldown {
+  position: absolute;
+  bottom: 50px;
+  right: 50%;
+  transform: translateX(50%);
+  font-size: 25px;
+  color: aqua;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  scroll-behavior: smooth;
+}
+
+.scrolldown > span {
+  font-size: 14px;
+  color: whitesmoke;
+  letter-spacing: 4px;
+}
+
+.fa-computer-mouse {
+  animation: up 0.5s ease-in-out alternate infinite;
+}
+
+@keyframes up {
+  to {
+    transform: scale(1.2);
+  }
+}
+
+/* Responsive hero */
+
+@media screen and (max-width: 840px) {
+  header,
+  main-container {
+    padding: 0, 20px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .lists,
+  .top-nav {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .main-container{
+    margin-top: 0;
+  }
+
+  #hero{
+    flex-direction: column-reverse;
+    gap: 30px;
+    height: 100%;
+  }
+
+  .left{
+    width: 100%;
+    gap: 30px;
+  }
+
+  .btns{
+    justify-content: center;
+  }
+
+  .social-icon{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .right{
+    width: 100%;
+    justify-content: center;
+  }
+  .hero-wrapper{
+    height: clamp(12.5rem, 0.0000rem + 55.5556vw,25rem);
+    width: clamp(12.5rem, 1.2500rem + 50.0000vw,23.75rem);
+  }
+
+  .hero-img{
+    width: clamp(12.5rem, 6.2500rem + 27.7778vw, 18.75rem);
+    height: clamp(12.5rem, 6.2500rem + 27.7778vw, 18.75rem);
+  }
+
+  .hero-img dotlottie-player{
+    width: 300px;
+    height: 300px;
+  }
+
+  .scrolldown{
+    flex-direction: column-reverse;
+    right: 20px;
+    bottom: 50px;
+  }
+
+  .scrolldown>span{
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    letter-spacing: 0;
+  }
+}
