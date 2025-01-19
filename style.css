@@ -211,6 +211,32 @@ nav {
   }
 }
 
+/* About section */
+#about{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-left{
+  width: 440px;
+  pointer-events: none;
+}
+
+.about-img{
+  background:none;
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-img>img{
+  width: 500px;
+}
 /* Responsive hero */
 
 @media screen and (max-width: 840px) {
