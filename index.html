@@ -27,7 +27,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!--Custom Style Sheet-->
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://lottie.host/3d60f402-94b0-47c4-aef9-8c536b18f246/yoqbFx0TCb.lottie">
+    <link
+      rel="stylesheet"
+      href="https://lottie.host/3d60f402-94b0-47c4-aef9-8c536b18f246/yoqbFx0TCb.lottie"
+    />
   </head>
   <body>
     <header>
@@ -35,7 +38,7 @@
         <h1 class="logo">GLEN ALLOY.</h1>
         <div class="lists">
           <a href="" class="list active">Home</a>
-          <a href="" class="list">About</a>
+          <a href="#about" class="list">About</a>
           <a href="" class="list">Skills</a>
           <a href="" class="list">Projects</a>
           <a href="" class="list">Contact</a>
@@ -60,9 +63,6 @@
           </p>
           <div class="btns">
             <a href="" class="contact-btn">Contact Me</a>
-            <a href="" class="download-btn top-nav" download
-              >Download CV <i class="fa-solid fa-file-lines"></i
-            ></a>
           </div>
           <div class="social-icons">
             <a href="" class="social-icon github">
@@ -80,33 +80,60 @@
           <div class="hero-wrapper">
             <div class="hero-img">
               <dotlottie-player
-              src="https://lottie.host/3d60f402-94b0-47c4-aef9-8c536b18f246/yoqbFx0TCb.lottie"
-              background="transparent"
-              speed="1"
-              loop
-              autoplay
-            ></dotlottie-player>
+                src="https://lottie.host/3d60f402-94b0-47c4-aef9-8c536b18f246/yoqbFx0TCb.lottie"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></dotlottie-player>
             </div>
           </div>
         </div>
-        <a href="" class="scrolldown">
+        <a href="#about" class="scrolldown">
           <i class="fa-solid fa-computer-mouse"></i>
           <span>Scroll Down</span>
         </a>
       </section>
 
       <!-- About Section -->
-       <section id="about">
+      <section id="about">
         <div class="about-left">
           <div class="about-img">
-            <img src="assets/images/portfolio-image.png" alt="">
-            <div class="year"></div>
-            <p>1</p>
-            <p>Years of Experience</p>
+            <img src="assets/images/profile_img.jpg" alt="" />
           </div>
         </div>
-        <div class="about-right"></div>
-       </section>
+        <div class="about-right">
+          <div class="about-right-top">
+            <p><span>–</span> About Me</p>
+            <p>Who is <span>GLEN ALLOY?</span></p>
+          </div>
+          <p class="about-right-description">
+            As a passionate full-stack engineer, I specialize in developing
+            dynamic and scalable web applications that provide seamless user
+            experiences. With expertise in both front-end and back-end
+            technologies, I enjoy tackling complex challenges and delivering
+            innovative solutions. I’m proficient in a wide range of tools and
+            frameworks, including Java, Spring Boot, JavaScript, React, Node.js,
+            and Python, enabling me to build comprehensive, end-to-end
+            applications with efficiency and precision.
+          </p>
+          <div class="about-right-mid">
+            <div class="about-right-mid-info">
+              <p>5+</p>
+              <p>Projects Completed</p>
+            </div>
+            <div class="about-right-mid-info">
+              <p>1+</p>
+              <p>Years Experience</p>
+            </div>
+          </div>
+          <div class="about-right-bottom">
+            <a href="" class="download-btn" download
+              >Download CV <i class="fa-solid fa-file-lines"></i
+            ></a>
+          </div>
+        </div>
+      </section>
     </main>
     <!--Font-Awesome JS-->
     <script src="assets/fontawesome-free-6.5.1-web/js/all.min.js"></script>
@@ -118,8 +145,8 @@
       AOS.init();
     </script>
     <script
-    src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
-    type="module"
-  ></script>
+      src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
   </body>
 </html>
