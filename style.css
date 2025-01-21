@@ -13,7 +13,7 @@ html{
 body {
   font-family: Poppins;
   background-color: #000;
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: repeating-linear-gradient(45deg, rgba(226, 226, 226,0.06) 0px, rgba(226, 226, 226,0.06) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
 }
 
 header {
@@ -66,7 +66,7 @@ nav {
 }
 
 .main-container {
-  max-width: 1200px;
+  max-width: 1500px;
   padding: 0 10px;
   margin: 0 auto;
   background: none;
@@ -96,7 +96,7 @@ nav {
 }
 
 .left .title {
-  font-size: 42px;
+  font-size: 50px;
   color: #fff;
 }
 
@@ -122,6 +122,11 @@ nav {
   border-radius: 8px;
   text-decoration: none;
   color: #000;
+  transition: 0.5s;
+}
+
+.contact-btn:hover{
+  transform: scale(1.2);
 }
 
 .social-icons {
@@ -158,7 +163,7 @@ nav {
 
 .hero-wrapper {
   height: 400px;
-  width: 380px;
+  width: 500px;
   border-bottom-left-radius: 50%;
   border-top-right-radius: 50%;
   display: flex;
@@ -168,7 +173,7 @@ nav {
 }
 
 .hero-img dotlottie-player {
-  width: 900px;
+  width: 1000px;
   height: 400px;
 }
 
@@ -315,6 +320,12 @@ nav {
   align-items: center;
   width: max-content;
   padding: 10px 25px;
+  transition: 0.5s;
+}
+
+.download-btn:hover{
+  background-color: aqua;
+  color: #000;
 }
 
 /* Responsive hero */
