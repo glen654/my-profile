@@ -216,6 +216,8 @@ nav {
   gap: 50px;
 }
 
+
+
 .about-left {
   width: 700px;
   pointer-events: none;
@@ -328,6 +330,91 @@ nav {
   color: #000;
 }
 
+/* skills section */
+#skills{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+  gap: 80px;
+}
+
+.skills-top{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skills-top>p:nth-child(1){
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: aqua;
+}
+
+.skills-top>p:nth-child(1)>span{
+  color: #fff;
+}
+
+.skills-top>p:nth-child(2){
+  font-size: clamp(1.8rem, 1.0500rem + 3.3333vw, 2.8rem);
+  font-weight: 600;
+  max-width: 80%;
+  align-self: center;
+}
+
+.skills-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill{
+  flex: 22%;
+  background-color: rgba(255,255,255,0.119);
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  border-radius: 10px;
+  gap: 15px;
+  position: relative;
+}
+
+.skill-icon{
+  width: 45px;
+  height: 45px;
+}
+
+.skill-icon img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.html{
+  background-color: #bd6e3d;
+}
+
+.css{
+  background-color: #0077b5;
+}
+
+.js{
+  background-color: rgb(193,157,78);
+}
+
+.react{
+  background-color: rgb(78,201,201);
+}
+
+.node{
+  background-color: rgb(62,94,62);
+}
+
+.mongo{
+  background-color: rgb(2,87,2);
+}
 /* Responsive hero */
 
 @media screen and (max-width: 840px) {
