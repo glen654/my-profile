@@ -6,14 +6,21 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: Poppins;
   background-color: #000;
-  background-image: repeating-linear-gradient(45deg, rgba(226, 226, 226,0.06) 0px, rgba(226, 226, 226,0.06) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(226, 226, 226, 0.06) 0px,
+      rgba(226, 226, 226, 0.06) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
 
 header {
@@ -125,7 +132,7 @@ nav {
   transition: 0.5s;
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
   transform: scale(1.2);
 }
 
@@ -215,8 +222,6 @@ nav {
   align-items: center;
   gap: 50px;
 }
-
-
 
 .about-left {
   width: 700px;
@@ -325,13 +330,13 @@ nav {
   transition: 0.5s;
 }
 
-.download-btn:hover{
+.download-btn:hover {
   background-color: aqua;
   color: #000;
 }
 
 /* skills section */
-#skills{
+#skills {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -340,80 +345,108 @@ nav {
   gap: 80px;
 }
 
-.skills-top{
+.skills-top {
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.skills-top>p:nth-child(1){
+.skills-top > p:nth-child(1) {
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 500;
   color: aqua;
 }
 
-.skills-top>p:nth-child(1)>span{
+.skills-top > p:nth-child(1) > span {
   color: #fff;
 }
 
-.skills-top>p:nth-child(2){
-  font-size: clamp(1.8rem, 1.0500rem + 3.3333vw, 2.8rem);
+.skills-top > p:nth-child(2) {
+  font-size: clamp(1.8rem, 1.05rem + 3.3333vw, 2.8rem);
   font-weight: 600;
   max-width: 80%;
   align-self: center;
 }
 
-.skills-bottom{
+.skills-mid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 1px solid aqua;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: aqua;
+}
+
+.card-description {
+  font-size: 14px;
+  color: whitesmoke;
+  margin-bottom: 15px;
+}
+
+.skills-bottom {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.skill{
-  flex: 22%;
-  background-color: rgba(255,255,255,0.119);
-  display: flex;
-  align-items: center;
-  padding: 18px;
-  border-radius: 10px;
-  gap: 15px;
+.marquee {
+  width: 100vw;
+  max-width: 100%;
+  height: 100px;
+  overflow: hidden;
   position: relative;
+  display: flex;
+  background: transparent;
+  border-radius: 5px;
 }
 
-.skill-icon{
-  width: 45px;
-  height: 45px;
+.track {
+  gap: 10px;
+  display: flex;
+  gap: 10px;
+  animation: marquee 40s linear infinite;
+  will-change: transform;
+  flex-shrink: 0;
 }
 
-.skill-icon img{
-  width: 100%;
-  object-fit: contain;
-}
-
-.html{
-  background-color: #bd6e3d;
-}
-
-.css{
-  background-color: #0077b5;
-}
-
-.js{
-  background-color: rgb(193,157,78);
-}
-
-.react{
-  background-color: rgb(78,201,201);
-}
-
-.node{
-  background-color: rgb(62,94,62);
-}
-
-.mongo{
-  background-color: rgb(2,87,2);
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 /* Responsive hero */
 
@@ -427,31 +460,32 @@ nav {
     display: flex;
   }
 
-  .lists, .top-nav {
+  .lists,
+  .top-nav {
     display: none;
   }
 
   /* abaut section */
 
-  #about{
+  #about {
     flex-direction: column;
     height: 100%;
     margin-top: 100px;
     padding: 30px 0;
   }
 
-  .about-left{
+  .about-left {
     max-width: 100%;
   }
 
-  .about-img{
-    width: clamp(20rem, 11.5625rem + 37.500vw,31.25rem);
-    height: clamp(20rem, 11.5625rem + 37.500vw,31.25rem);
+  .about-img {
+    width: clamp(20rem, 11.5625rem + 37.5vw, 31.25rem);
+    height: clamp(20rem, 11.5625rem + 37.5vw, 31.25rem);
   }
 
-  .about-img > img{
-    width: clamp(20rem, 11.5625rem + 37.500vw,31.25rem);
-    height: clamp(20rem, 11.5625rem + 37.500vw,31.25rem);
+  .about-img > img {
+    width: clamp(20rem, 11.5625rem + 37.5vw, 31.25rem);
+    height: clamp(20rem, 11.5625rem + 37.5vw, 31.25rem);
   }
 }
 
