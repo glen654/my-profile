@@ -23,6 +23,22 @@ body {
     linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 header {
   max-width: 1200px;
   margin: 0 auto;
@@ -504,10 +520,7 @@ nav {
   gap: 30px;
   padding: 10px;
   min-height: 300px;
-  border: 2px solid whitesmoke;
   border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 
 .reverse {
@@ -515,15 +528,17 @@ nav {
 }
 
 .project-image {
-  padding: 20px;
-  background: white;
+  padding: 10px;
+  background: whitesmoke;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(176, 196, 197, 0.4) -5px 5px,
+    rgba(209, 186, 201, 0.3) -10px 10px, rgba(245, 241, 243, 0.2) -15px 15px,
+    rgba(71, 67, 70, 0.1) -20px 20px, rgba(29, 28, 29, 0.05) -25px 25px;
 }
 
 .project-image img {
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
   object-fit: cover;
   border-radius: 10px;
 }
