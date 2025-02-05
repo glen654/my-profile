@@ -572,7 +572,7 @@ nav {
   position: absolute;
   top: -60%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) scale(.9);
   font-size: 1.6rem;
   white-space: nowrap;
   padding: .5rem 1rem;
@@ -581,15 +581,70 @@ nav {
   background: whitesmoke;
   color: black;
   opacity: 0;
-  scale: .9;
   transition: .2s;
 }
 
 .portfolio-box .live-github a:hover span{
   top: -70%;
   opacity: 1;
-  scale: 1;
+  transform: translateX(-50%) scale(1);
 }
+
+.portfolio-box .portfolio-carousel {
+  width: 100%;
+  height: 45rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.portfolio-carousel .img-slide{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 100%;
+  gap: 2rem;
+  height: inherit;
+  transition: .5s;
+}
+
+.portfolio-carousel .img-item{
+  height: inherit;
+}
+
+.portfolio-carousel .img-item img{
+  display: block;
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-top: 80px;
+}
+
+.portfolio-box .navigation{
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.portfolio-box .navigation button{
+  display: inline-flex;
+  padding: .4rem;
+  background: #555;
+  border: .2rem solid aqua;
+  border-radius: .6rem;
+  font-size: 4rem;
+  color: aqua;
+  cursor: pointer;
+}
+
+.portfolio-box .navigation button.disabled {
+  border-color: #555;
+  color: whitesmoke;
+}
+
+.portfolio-box .navigation .arrow-right{
+  margin-left: 1.5rem;
+}
+
+
 
 /* Responsive hero */
 
