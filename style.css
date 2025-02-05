@@ -507,123 +507,88 @@ nav {
   align-self: center;
 }
 
-.projects {
-  padding: 50px;
-  text-align: center;
+.portfolio-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3rem;
 }
 
-.project-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+
+.portfolio-detail{
+  display: none;
 }
 
-.project-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 30px;
-  padding: 10px;
-  min-height: 300px;
-  border-radius: 10px;
+.portfolio-detail.active{
+  display: block;
 }
 
-.reverse {
-  flex-direction: row-reverse;
+.portfolio-box .numb{
+  font-size: 8rem;
+  -webkit-text-stroke: .07rem whitesmoke;
+  color: transparent;
+  line-height: 1;
 }
 
-.project-image {
-  padding: 10px;
-  background: whitesmoke;
-  border-radius: 10px;
-  box-shadow: rgba(176, 196, 197, 0.4) -5px 5px,
-    rgba(209, 186, 201, 0.3) -10px 10px, rgba(245, 241, 243, 0.2) -15px 15px,
-    rgba(71, 67, 70, 0.1) -20px 20px, rgba(29, 28, 29, 0.05) -25px 25px;
+.portfolio-box h3{
+  font-size: 3.5rem;
+  margin: .8rem 0 2rem;
 }
 
-.project-image img {
-  width: 500px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 10px;
+.portfolio-box p{
+  font-size: 1.6rem;
 }
 
-.project-details {
-  text-align: left;
-  max-width: 500px;
+.portfolio-box .tech{
+  margin: 2rem 0;
+  color: whitesmoke;
+  border-bottom: .1rem solid whitesmoke;
+  padding-bottom: 2rem;
 }
 
-.project-details .project-header {
-  margin-bottom: 25px;
+.portfolio-box .live-github a{
+  position: relative;
+  display: inline-flex;
+  padding: 1.3rem;
+  font-size: 3rem;
+  color: whitesmoke;
+  border-radius: 50%;
+  background: #555;
+  transition: .5s;
+}
+
+.portfolio-box .live-github a:hover{
   color: aqua;
 }
 
-.project-details .project-description {
-  margin-bottom: 20px;
-  color: whitesmoke;
+.portfolio-box .live-github a:first-child{
+  margin-right: 1.5rem;
 }
 
-.project-technologies span {
-  border: 1px solid aqua;
-  padding: 5px 10px;
-  margin: 5px;
-  display: inline-block;
-  border-radius: 5px;
+.portfolio-box .live-github a:first-child .fa-arrow-left{
+  transform: rotate(135deg);
 }
 
-.project-buttons {
-  margin-top: 20px;
-  display: flex;
+.portfolio-box .live-github a span{
+  position: absolute;
+  top: -60%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.6rem;
+  white-space: nowrap;
+  padding: .5rem 1rem;
+  border-radius: .6rem;
+  pointer-events: none;
+  background: whitesmoke;
+  color: black;
+  opacity: 0;
+  scale: .9;
+  transition: .2s;
 }
 
-.btn {
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-  display: inline-block;
-  margin-right: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.fa-eye {
-  color: #ffffff;
-}
-
-.fa-github {
-  color: #ffffff;
-}
-
-.demo-btn {
-  height: 50px;
-  width: 150px;
-  border: 1px solid whitesmoke;
-  color: #fff;
-  border-radius: 10px;
-  transition: 0.3s ease;
-}
-
-.demo-btn:hover {
-  background-color: white;
-  color: #000;
-
-  .fa-eye {
-    color: #000;
-  }
-}
-
-.github-btn {
-  background: #333;
-  color: #fff;
-  height: 50px;
-  width: 120px;
-  transition: 0.5s ease;
-}
-
-.github-btn:hover {
-  border: 1px solid whitesmoke;
-  background: transparent;
+.portfolio-box .live-github a:hover span{
+  top: -70%;
+  opacity: 1;
+  scale: 1;
 }
 
 /* Responsive hero */
