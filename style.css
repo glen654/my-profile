@@ -651,6 +651,141 @@ nav {
   margin-left: 1.5rem;
 }
 
+/* Contact secction */
+
+#contactus {
+  color: whitesmoke;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactus-left,
+.contactus-right {
+  flex: 300px;
+}
+
+.contactus-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contactus-left-top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactus-left-top > p:nth-child(1) {
+  font-size: 22px;
+  color: aqua;
+}
+
+.contactus-left-top > p:nth-child(1) > span {
+  color: whitesmoke;
+}
+
+.contactus-left-top > p:nth-child(2) {
+  font-size: clamp(1.75rem, 1.0938rem + 2.9167vw, 2.625rem);
+  font-weight: 500;
+}
+
+.contactus-left-top > p:nth-child(2) span {
+  color: aqua;
+}
+
+.contactus-left-mid {
+  color: whitesmoke;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  width: 70%;
+}
+
+.contactus-left-bottom div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactus-left-bottom div > span:nth-child(1) {
+  color: #000;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.contactus-left-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactus-left-bottom div > p:nth-child(2) {
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.contactus-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form input,
+.form textarea {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #232323;
+  border: none;
+  color: #fff;
+}
+
+.form textarea {
+  resize: none;
+  height: 180px;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+  font-size: 16px;
+  color: whitesmoke;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.footer-line {
+  width: 100%;
+  height: 1px;
+  background-color: whitesmoke;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.8;
+}
 /* Responsive hero */
 
 @media screen and (max-width: 840px) {
@@ -725,31 +860,27 @@ nav {
     font-size: 13px;
   }
 
-  .project-container {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-    gap: 20px;
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
-  .project-image {
-    width: 100%;
-    padding: 10px;
+  .portfolio-box h3 {
+    font-size: 2.2rem;
   }
 
-  .project-image img {
-    width: 90%;
-    height: auto;
-    max-width: 400px;
+  .portfolio-box p {
+    font-size: 1rem;
   }
 
-  .project-details {
-    max-width: 90%;
-    text-align: center;
+  .portfolio-box .navigation button {
+    width: 45px;
+    height: 45px;
+    font-size: 1.8rem;
   }
 
-  .project-buttons {
-    justify-content: center;
+  .portfolio-carousel .img-item img {
+    max-height: 350px;
   }
 }
 
@@ -850,43 +981,39 @@ nav {
     height: 40px;
   }
 
-  .projects {
-    padding: 30px;
+  #projects {
+    padding: 1rem;
+    gap: 60px;
+  }
+
+  .portfolio-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .project-top > p:nth-child(1) {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .project-top > p:nth-child(2) {
+    font-size: clamp(1.5rem, 1rem + 3vw, 2.5rem);
+  }
+
+  .portfolio-box h3 {
+    font-size: 2rem;
+  }
+
+  .portfolio-box p {
+    font-size: 0.9rem;
+  }
+
+  .portfolio-box .navigation button {
+    width: 40px;
+    height: 40px;
     font-size: 1.5rem;
-    max-width: 90%;
   }
 
-  .project-container {
-    flex-direction: column;
-    padding: 15px;
-    min-height: auto;
-    gap: 15px;
-  }
-
-  .project-image img {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-  }
-
-  .project-details {
-    max-width: 100%;
-  }
-
-  .project-buttons {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .btn {
-    width: 100%;
-    justify-content: center;
+  .portfolio-carousel .img-item img {
+    max-height: 300px;
   }
 }
