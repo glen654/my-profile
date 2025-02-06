@@ -473,20 +473,14 @@ nav {
   flex-direction: column;
   justify-content: center;
   color: whitesmoke;
-  gap: 80px;
+  gap: 45px;
 }
 
 .project-top {
-  position: sticky;
   text-align: center;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  z-index: 1000;
-  position: sticky;
-  top: 0;
-  padding: 20px 0;
-  z-index: 1000;
 }
 
 .project-top > p:nth-child(1) {
@@ -507,45 +501,52 @@ nav {
   align-self: center;
 }
 
-.portfolio-container{
+.portfolio-container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 }
 
-
-.portfolio-detail{
+.portfolio-detail {
   display: none;
 }
 
-.portfolio-detail.active{
+.portfolio-detail.active {
   display: block;
 }
 
-.portfolio-box .numb{
-  font-size: 8rem;
-  -webkit-text-stroke: .07rem whitesmoke;
+.portfolio-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.portfolio-box .numb {
+  font-size: 5rem;
+  -webkit-text-stroke: 0.07rem whitesmoke;
   color: transparent;
   line-height: 1;
 }
 
-.portfolio-box h3{
-  font-size: 3.5rem;
-  margin: .8rem 0 2rem;
+.portfolio-box h3 {
+  font-size: 3rem;
+  margin: 0.8rem 0 2rem;
 }
 
-.portfolio-box p{
-  font-size: 1.6rem;
+.portfolio-box p {
+  font-size: 1.2rem;
 }
 
-.portfolio-box .tech{
+.portfolio-box .tech {
   margin: 2rem 0;
   color: whitesmoke;
-  border-bottom: .1rem solid whitesmoke;
+  border-bottom: 0.1rem solid whitesmoke;
   padding-bottom: 2rem;
 }
 
-.portfolio-box .live-github a{
+.portfolio-box .live-github a {
   position: relative;
   display: inline-flex;
   padding: 1.3rem;
@@ -553,38 +554,38 @@ nav {
   color: whitesmoke;
   border-radius: 50%;
   background: #555;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.portfolio-box .live-github a:hover{
+.portfolio-box .live-github a:hover {
   color: aqua;
 }
 
-.portfolio-box .live-github a:first-child{
+.portfolio-box .live-github a:first-child {
   margin-right: 1.5rem;
 }
 
-.portfolio-box .live-github a:first-child .fa-arrow-left{
+.portfolio-box .live-github a:first-child .fa-arrow-left {
   transform: rotate(135deg);
 }
 
-.portfolio-box .live-github a span{
+.portfolio-box .live-github a span {
   position: absolute;
   top: -60%;
   left: 50%;
-  transform: translateX(-50%) scale(.9);
+  transform: translateX(-50%) scale(0.9);
   font-size: 1.6rem;
   white-space: nowrap;
-  padding: .5rem 1rem;
-  border-radius: .6rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.6rem;
   pointer-events: none;
   background: whitesmoke;
   color: black;
   opacity: 0;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-.portfolio-box .live-github a:hover span{
+.portfolio-box .live-github a:hover span {
   top: -70%;
   opacity: 1;
   transform: translateX(-50%) scale(1);
@@ -597,42 +598,48 @@ nav {
   overflow: hidden;
 }
 
-.portfolio-carousel .img-slide{
+.portfolio-carousel .img-slide {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 100%;
   gap: 2rem;
   height: inherit;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.portfolio-carousel .img-item{
+.portfolio-carousel .img-item {
   height: inherit;
 }
 
-.portfolio-carousel .img-item img{
+.portfolio-carousel .img-item img {
   display: block;
   width: 100%;
   height: 600px;
   object-fit: cover;
   border-radius: 1rem;
-  margin-top: 80px;
 }
 
-.portfolio-box .navigation{
+.portfolio-box .navigation {
   text-align: right;
-  margin-top: 2rem;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
 }
 
-.portfolio-box .navigation button{
+.portfolio-box .navigation button {
   display: inline-flex;
-  padding: .4rem;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
   background: #555;
-  border: .2rem solid aqua;
-  border-radius: .6rem;
-  font-size: 4rem;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  font-size: 2rem;
   color: aqua;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
 .portfolio-box .navigation button.disabled {
@@ -640,11 +647,9 @@ nav {
   color: whitesmoke;
 }
 
-.portfolio-box .navigation .arrow-right{
+.portfolio-box .navigation .arrow-right {
   margin-left: 1.5rem;
 }
-
-
 
 /* Responsive hero */
 
