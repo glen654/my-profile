@@ -39,6 +39,61 @@ body {
   background: #555;
 }
 
+#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #000;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(226, 226, 226, 0.06) 0px,
+      rgba(226, 226, 226, 0.06) 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader {
+  --r1: 154%;
+  --r2: 68.5%;
+  width: 150px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(
+      var(--r1) var(--r2) at top,
+      #0000 79.5%,
+      #00ffff 80%
+    ),
+    radial-gradient(var(--r1) var(--r2) at bottom, #00ffff 79.5%, #0000 80%),
+    radial-gradient(var(--r1) var(--r2) at top, #0000 79.5%, #00ffff 80%), #ccc;
+  background-size: 50.5% 220%;
+  background-position: -100% 0%, 0% 0%, 100% 0%;
+  background-repeat: no-repeat;
+  animation: l9 2s infinite linear;
+}
+@keyframes l9 {
+  33% {
+    background-position: 0% 33%, 100% 33%, 200% 33%;
+  }
+  66% {
+    background-position: -100% 66%, 0% 66%, 100% 66%;
+  }
+  100% {
+    background-position: 0% 100%, 100% 100%, 200% 100%;
+  }
+}
+
+#content {
+  display: none;
+}
+
 header {
   max-width: 1200px;
   margin: 0 auto;
@@ -548,29 +603,24 @@ nav {
 }
 
 .portfolio-box .tech p {
-  display: inline-block; 
+  display: inline-block;
   margin: 0.5rem;
-  padding: 0.5rem 1rem; 
-  border: 2px solid aqua; 
-  border-radius: 0.5rem; 
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.1
-  ); 
-  color: whitesmoke; 
-  font-size: 1rem; 
+  padding: 0.5rem 1rem;
+  border: 2px solid aqua;
+  border-radius: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: whitesmoke;
+  font-size: 1rem;
   cursor: pointer;
 }
 
 .portfolio-box .tech p:not(:last-child) {
-  margin-right: 1rem; 
+  margin-right: 1rem;
 }
 
 .portfolio-box .tech p:hover {
-  background-color: rgba(255, 255, 255, 0.2); 
-  border-color: aqua; 
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: aqua;
 }
 
 .portfolio-box .live-github a {
