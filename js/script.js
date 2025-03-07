@@ -1,60 +1,51 @@
-// document.getElementById('hamburger-menu').addEventListener('click', function () {
-//     var hamburger = document.getElementById('hamburger');
-//     var icon = document.getElementById('hamburger-icon');
-//     var close = document.getElementById('x-icon');
+const arrowRight = document.querySelector(
+  ".portfolio-box .navigation .arrow-right"
+);
+const arrowLeft = document.querySelector(
+  ".portfolio-box .navigation .arrow-left"
+);
 
-//     hamburger.style.display = (hamburger.style.display === 'none') ? 'block' : 'none';
-//     icon.style.display = (icon.style.display === 'block') ? 'none' : 'block';
-//     close.style.display = (close.style.display === 'none') ? 'block' : 'none';
-// });
+let index = 0;
 
-// document.addEventListener("DOMContentLoaded", function() {
-//     window.onload = function() {
-//         setTimeout(function() {
-//             document.getElementById('preloader').style.display = 'none';
-//             document.getElementById('home').style.display = 'block';
-//         }, 1800);
-//     };
-// });
-
-const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-right');
-const arrowLeft = document.querySelector('.portfolio-box .navigation .arrow-left');
-
-let index = 0
+const portfolioDetails = document.querySelectorAll(".portfolio-detail");
+const totalProjects = portfolioDetails.length;
 
 const activePortfolio = () => {
-    const imgSlide = document.querySelector('.portfolio-carousel .img-slide');
-    const portfolioDetails = document.querySelectorAll('.portfolio-detail')
-    imgSlide.style.transform = `translateX(calc(${index * -100}% - ${index * 2}rem))`;
+  const imgSlide = document.querySelector(".portfolio-carousel .img-slide");
+  imgSlide.style.transform = `translateX(calc(${index * -100}% - ${
+    index * 2
+  }rem))`;
 
-    portfolioDetails.forEach(detail => {
-        detail.classList.remove('active');
-    });
-    portfolioDetails[index].classList.add('active');
-}
+  portfolioDetails.forEach((detail) => {
+    detail.classList.remove("active");
+  });
+  portfolioDetails[index].classList.add("active");
+};
 
-arrowRight.addEventListener('click', () =>  {
-    if(index < 4){
-        index++;
-        arrowLeft.classList.remove('disabled');
-    }
-    else{
-        index = 5;
-        arrowRight.classList.add('disabled');
-    }
+arrowRight.addEventListener("click", () => {
+  index = (index + 1) % totalProjects;
 
-    activePortfolio();
+  if (index === totalProjects - 1) {
+    arrowRight.classList.add("disabled");
+  }
+  if (index > 0) {
+    arrowLeft.classList.remove("disabled");
+  }
+
+  activePortfolio();
 });
 
-arrowLeft.addEventListener('click', () =>  {
-    if(index > 1){
-        index--;
-        arrowRight.classList.remove('disabled');
-    }
-    else{
-        index = 0;
-        arrowLeft.classList.add('disabled');
-    }
+arrowLeft.addEventListener("click", () => {
+  index = (index - 1 + totalProjects) % totalProjects;
 
-    activePortfolio();
+  if (index === 0) {
+    arrowLeft.classList.add("disabled");
+  }
+  if (index < totalProjects - 1) {
+    arrowRight.classList.remove("disabled");
+  }
+
+  activePortfolio();
 });
+
+activePortfolio();
